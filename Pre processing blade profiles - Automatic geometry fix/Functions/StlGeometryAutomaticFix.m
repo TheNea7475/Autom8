@@ -6,17 +6,6 @@ function Matrix=StlGeometryAutomaticFix(TR)
     %Search range near 0 in radius percentage
     SearchRange=0.05;
 
-    %Display for check
-
-    XX=TR.Points;
-
-    plot3(XX(:,1),XX(:,2),XX(:,3),".")
-    xlabel("x")
-    ylabel("y")
-    zlabel("z")
-    title("Read from STL")
-    axis equal
-
     %retriving matrixes
     XX=TR.Points;
     ConnectivityList=TR.ConnectivityList;
@@ -29,14 +18,6 @@ function Matrix=StlGeometryAutomaticFix(TR)
     Completed=false;
     while not(Completed)
         c=c+1;
-
-
-            plot3(OutputMatrix(:,1),OutputMatrix(:,2),OutputMatrix(:,3),".")
-            xlabel("x")
-            ylabel("y")
-            zlabel("z")
-            title("Operation "+num2str(c-1))
-            axis equal
 
         if c==1
             Action="move";
@@ -108,14 +89,6 @@ function Matrix=StlGeometryAutomaticFix(TR)
                 MatrixToMirror(:,1)=-MatrixToMirror(:,1);
                 MatrixToMirror(:,2)=-MatrixToMirror(:,2);
                 MatrixToMirror(:,3)=-MatrixToMirror(:,3);
-
-                %Mirror display
-                plot3(MatrixToMirror(:,1),MatrixToMirror(:,2),MatrixToMirror(:,3),".")
-                xlabel("x")
-                ylabel("y")
-                zlabel("z")
-                title("Mirrored matrix")
-                axis equal
     
                 %Updating
                 OutputMatrix=MatrixToMirror;
@@ -127,7 +100,7 @@ function Matrix=StlGeometryAutomaticFix(TR)
                 sr=(ymax-ymin)*SearchRange;
 
                 ContainedPointsIds=abs(OutputMatrix(:,2))<sr;
-                
+
                 ContainedMatrix=OutputMatrix(ContainedPointsIds,:);
 
                 zmax=max(ContainedMatrix(:,3));
@@ -146,21 +119,6 @@ function Matrix=StlGeometryAutomaticFix(TR)
         end
 
     end
-
-
-
-    %Final checks
-    plot3(OutputMatrix(:,1),OutputMatrix(:,2),OutputMatrix(:,3),".")
-    xlabel("x")
-    ylabel("y")
-    zlabel("z")
-    title("Final Matrix")
-    axis equal
-    hold on
-    dot=plot3(0,0,0);
-    dot.Marker="*";
-    dot.Color="red";
-    hold off
 
 
     %Output

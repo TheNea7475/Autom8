@@ -31,7 +31,6 @@ GraphsDir="Graphs/";
 ProfilesAerodinamicDataDir="PAD/";
 xfoilDir="xfoil\\";
 BenchmarkAeroacousticDir="aeroacoustic benchmark graphs/";
-STLDir="STL/";
 DatabasePath=strcat(Filename,".mat");
 gifFile="Sequence.gif";
 
@@ -46,33 +45,6 @@ Soundspeed=str2double(Cs.Soundspeed); %m/s
 UnitFactor=str2double(Cs.UnitFactor);   %mm default
 ni=str2double(Cs.ni);   %I.S. default
 
-%% Main options, choose wich module to run (now in func args)
-%its heavily suggested to run all the modules togheter
-
-%generate profiles from stl. Also runs geometry manual fixer
-
-%ExtractProfiles;
-
-
-%whether to generate database with xfoil or not
-
-%GenerateXfoilDatabase;
-
-
-%whether to run the twist and chord distribution comparation tool
-
-%RunChordTwistDist;
-
-
-%Whether to run database filler
-
-%RunDatabaseFiller;
-
-
-%Whether to run interpolation polar
-
-%RunInterpolationPolar;
-
 %% Profile extractor options
 
 GenerateGif=false;
@@ -83,7 +55,7 @@ HoldGraphs=false;
 DebugGraphNumbered=false;
 
 %Number of slices
-Steps=20;
+Steps=5;
 
 Delta=2; %Radial scanning radius percentage
 
@@ -97,9 +69,9 @@ killtime_s=4;   %In seconds, must be > 1 and multiple of 1
 
 % >4 recommended
 %Must all be the same or interp3 wont work
-aDensity=10;
-MachDensity=10;
-ReDensity=10;
+aDensity=5;
+MachDensity=5;
+ReDensity=5;
 
 n_iter=300;
 ncrit=9;
