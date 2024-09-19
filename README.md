@@ -1,6 +1,6 @@
 # Autom8
 
-- This is my first GitHub project so a lot of things may be incorrect, misplaced, or missing.
+- This is my first GitHub project so a lot of things may be incorrect, misplaced, redundant or missing.
 - I'm non-native en so I apologize for every mispell or grammar errors.
 
 A project to optimize and automate 2D geometries extraction from 3D STL type geometries.
