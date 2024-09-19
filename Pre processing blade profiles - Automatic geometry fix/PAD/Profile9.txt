@@ -1,0 +1,5 @@
+Radial position: 0.62105
+attack angle: 18.8193
+x25: -0.0055476
+y25: 0.0010109
+Chord/R: 0.19463

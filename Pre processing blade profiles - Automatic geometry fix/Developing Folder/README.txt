@@ -1,0 +1,1 @@
+This folder contians data that has been used during debug or validation. You can delete this folder or use it for development

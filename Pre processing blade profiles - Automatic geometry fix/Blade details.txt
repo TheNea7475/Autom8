@@ -1,0 +1,3 @@
+Max Radius in meters: 0.00015
+Max Re: 0.11509
+Max Mach: 0.00015224
