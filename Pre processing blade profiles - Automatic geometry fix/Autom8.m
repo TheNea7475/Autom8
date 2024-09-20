@@ -49,7 +49,7 @@ ni=str2double(Cs.ni);   %I.S. default
 
 GenerateGif=false;
 
-HoldGraphs=false;
+HoldGraphs=true;
 
 % a detailed debug graph with numbers on every point
 DebugGraphNumbered=false;
