@@ -1,14 +1,15 @@
-function Autom8(Filename,ExtractProfiles,GenerateXfoilDatabase,RunChordTwistDist,RunDatabaseFiller,RunInterpolationPolar)
+function Autom8(AppParameters)
 
     arguments
-    Filename string  % MC: I added an additional argument to save the structure RotorDatabase with a specific name. This should be extended for the other saves; graphs; airfoils; plots.  
-    ExtractProfiles logical 
-    GenerateXfoilDatabase logical
-    RunChordTwistDist logical
-    RunDatabaseFiller logical
-    RunInterpolationPolar logical
+    AppParameters struct
     end
 
+    %Conversion from AppData
+    Filename=AppParameters.FileName;
+    ExtractProfiles=AppParameters.ExtractorBool;
+    GenerateXfoilDatabase=AppParameters.XfoilDbBool;
+    RunDatabaseFiller=AppParameters.DbFillerBool;
+    STLPath="STL/"+AppParameters.StlPath;
  
 
 %% Debug suppressing and variables/pointers cleaning
@@ -47,17 +48,10 @@ ni=str2double(Cs.ni);   %I.S. default
 
 %% Profile extractor options
 
-GenerateGif=false;
-
-HoldGraphs=true;
-
-% a detailed debug graph with numbers on every point
-DebugGraphNumbered=false;
-
 %Number of slices
-Steps=5;
+Steps=AppParameters.Steps;
 
-Delta=2; %Radial scanning radius percentage
+Delta=AppParameters.Delta; %Radial scanning radius percentage
 
 %% Xfoil database options
 
@@ -93,16 +87,8 @@ PercTreshold=100;
 %Time to wait after each print, just for logs reading facility
 FolderWait=0.1;
 
-%Skip stl check if theres no profile extracting need
-if ExtractProfiles
-    Value=PresetDlg("Stl_path","STL/5.STL");
-    STLPath=string(Value.Stl_path);
-else
-    STLPath="";
-end
-
 %Returns a structure with info about paths and files position
-FolderCheck=FolderManager(Steps,ExtractProfiles,gifFile,GenerateXfoilDatabase,RunChordTwistDist,RunInterpolationPolar,PolarsDir,AirfsDir,GraphsDir,ProfilesAerodinamicDataDir,xfoilDir,BenchmarkAeroacousticDir,FunctionsDir,STLPath,DatabasePath,aDensity,ReDensity,MachDensity,FolderWait);
+FolderCheck=FolderManager(Steps,ExtractProfiles,gifFile,GenerateXfoilDatabase,PolarsDir,AirfsDir,GraphsDir,ProfilesAerodinamicDataDir,xfoilDir,BenchmarkAeroacousticDir,FunctionsDir,STLPath,DatabasePath,aDensity,ReDensity,MachDensity,FolderWait);
 
 tic
 %% Running section
@@ -111,12 +97,17 @@ tic
 %Profile extractor
 if ExtractProfiles && FolderCheck.stl && FolderCheck.functions
     disp("Running the profile extractor...")
-    GeometryExtractor_fast(STLPath,AirfsDir,GraphsDir,ProfilesAerodinamicDataDir,GenerateGif,Steps,Delta,HoldGraphs,DebugGraphNumbered,range_rpm,UnitFactor,Soundspeed,ni);
+    CompletePlotData=GeometryExtractor_fast(STLPath,AirfsDir,ProfilesAerodinamicDataDir,Steps,Delta,range_rpm,UnitFactor,Soundspeed,ni);
 
     %Adding PAD data to database so it wont need other stuff when running
     %polar
     InsertPadInDatabase(DatabasePath,ProfilesAerodinamicDataDir,AirfsDir);
 
+    %Adding Profiles plotting data into Database
+    if not(isempty(CompletePlotData.PlotData))
+    InsertPlotDataInDatabase(DatabasePath,CompletePlotData);
+    end
+   
 end
 
 %Xf database
@@ -125,29 +116,10 @@ if GenerateXfoilDatabase && FolderCheck.bladedet && FolderCheck.xfoil && FolderC
     FolderCheck.dbmanager=DbManagerForXfoil(AirfsDir,PolarsDir,xfoilDir,aDensity,ReDensity,MachDensity,killtime_s,DatabasePath,DebugLogXfoil,ncrit,n_iter);
 end
 
-%ChordTwistdistibution
-if RunChordTwistDist && FolderCheck.pad && FolderCheck.csv && FolderCheck.functions
-    disp("Running twist and chord distribution extractor...")
-    FolderCheck.twist=TwistAndChordDist(ProfilesAerodinamicDataDir,BenchmarkAeroacousticDir); 
-end
-
 %Database filler
 if RunDatabaseFiller && FolderCheck.db
     fprintf("Running database filler with interpolation...\n")
     FillDatabase(DatabasePath,RemovingTreshold,PercTreshold)
-end
-
-%Interpolation polar
-if RunInterpolationPolar && FolderCheck.pad && FolderCheck.db && FolderCheck.bladedet && FolderCheck.functions
-
-    if RunInterpolationPolar && not(ExtractProfiles)
-        fprintf(2,"\nBe sure to have PAD folder synced with database content.\nDo not use the polar function if you started a new profile extraction and the database isn't updated!\n\n")
-        pause(2)
-    end
-
-    load(DatabasePath);
-    disp("Running interpolation polar calulator..")
-    PolarMenu(Database);
 end
 
 

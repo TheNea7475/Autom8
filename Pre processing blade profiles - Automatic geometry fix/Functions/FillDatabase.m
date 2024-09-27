@@ -186,12 +186,8 @@ function Value=FillAllDatabases(pi,ai,rei,machi,Database,interpdir)
             %Cicle trough all values of database except the grid
 
             %this should be a char list of the fields
-            Fields=fieldnames(Database);
 
-            %removing grid from list of databases to cycle trough
-            ii=strcmp(Fields,"grid");
-
-            Fields(ii)=[];
+            Fields={"CL" "CD"};
 
             for i=1:length(Fields)
 
