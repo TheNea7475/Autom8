@@ -3,7 +3,7 @@
 %#ok<*AGROW>    Autoincremento matrice
 %#ok<*VUNUS>    Variabile non usata
 
-function CompletePlotData=GeometryExtractor_fast(stlPath,AirfDir,PADDir,steps,d,range_rpm,UnitFactor,Soundspeed,ni)
+function CompletePlotData=GeometryExtractor_fast(stlPath,AirfDir,PADDir,steps,d,range_rpm,UnitFactor,Soundspeed,ni,cutoff,TrailCutPerc)
     
     arguments
     stlPath string
@@ -15,6 +15,8 @@ function CompletePlotData=GeometryExtractor_fast(stlPath,AirfDir,PADDir,steps,d,
     UnitFactor double
     Soundspeed double
     ni double
+    cutoff double           %Perc of ctoff from min z (near root)
+    TrailCutPerc double     %Perc after the trail is cut. Additional behaviour in function
     
     end
     
@@ -22,9 +24,7 @@ function CompletePlotData=GeometryExtractor_fast(stlPath,AirfDir,PADDir,steps,d,
     
     %% Options
 
-    SavePlotData=true;                      %Save all data about profiles and plotting into database
-    TrailCutPerc=99;                    %Perc after the trail is cut. Additional behaviour in function
-    cutoff=0.1;                         %Perc of ctoff from min z (near root)
+    SavePlotData=true;                      %Save all data about profiles and plotting into database                                      
     
     
     %% Pre run operations

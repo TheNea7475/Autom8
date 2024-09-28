@@ -59,7 +59,6 @@ function [ProfileId,ProfileId2,Accuracy,r1,r2,isInside]=Find2ClosestProfileS(Inp
 
     %Need to find the closest profile to given r, extract his name to give it to the database
     %so the database can know wich profile is more suitable
-
     OldDist=1;
 
     for i=1:length(ProfilesNamesArray)

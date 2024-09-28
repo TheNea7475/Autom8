@@ -37,19 +37,22 @@ gifFile="Sequence.gif";
 
 
 %% constants and parameters
-%now into dlg to prevent incorrect unit factor
 
-Cs=PresetDlg({'MinRpm','MaxRpm','Soundspeed','UnitFactor','ni'},{'2800','3200','330','1e-3','1.5e-5'});
-
-range_rpm=str2double([Cs.MinRpm,Cs.MaxRpm]); %rpm
-Soundspeed=str2double(Cs.Soundspeed); %m/s
-UnitFactor=str2double(Cs.UnitFactor);   %mm default
-ni=str2double(Cs.ni);   %I.S. default
+range_rpm=AppParameters.range_rpm;
+Soundspeed=AppParameters.Soundspeed;
+UnitFactor=AppParameters.uf;
+ni=AppParameters.ni;
 
 %% Profile extractor options
 
 %Number of slices
 Steps=AppParameters.Steps;
+
+%Radial cut percentage before root. Avoid unnecessary geometries
+cutoff=AppParameters.cutoff;
+
+%Trail cut in a 2D profile
+TrailCutPerc=AppParameters.TrailCutPerc;
 
 Delta=AppParameters.Delta; %Radial scanning radius percentage
 
@@ -57,29 +60,30 @@ Delta=AppParameters.Delta; %Radial scanning radius percentage
 
 %chose if xfoil should open new windows and log its output into console
 %(Only for debug, leave it false to avoid crash when not converging)
-DebugLogXfoil=false;
+DebugLogXfoil=AppParameters.dbxf;
 
-killtime_s=4;   %In seconds, must be > 1 and multiple of 1
+killtime_s=AppParameters.killtime;
 
 % >4 recommended
 %Must all be the same or interp3 wont work
-aDensity=5;
-MachDensity=5;
-ReDensity=5;
+dbdens=AppParameters.dbdens;
+aDensity=dbdens;
+MachDensity=dbdens;
+ReDensity=dbdens;
 
-n_iter=300;
-ncrit=9;
+n_iter=AppParameters.niter;
+ncrit=AppParameters.ncrit;
 
 %% Database filler options
 
 %If number of valid values in a row is less than this the profile is removed from
 %interpolation. Minimum supported 2 (very raw interpolation) to Row size
-RemovingTreshold=2;
+RemovingTreshold=AppParameters.rmt;
 
 %Additional check, to interpolate on more consistent rows. If percentage of nans
 %value is above this percentage skip this interpolation. Set to 100 to
 %turn this check off. Low values might cause everything to be discarded.
-PercTreshold=100;
+PercTreshold=AppParameters.perct;
 
 
 %% Folder checker
@@ -97,7 +101,7 @@ tic
 %Profile extractor
 if ExtractProfiles && FolderCheck.stl && FolderCheck.functions
     disp("Running the profile extractor...")
-    CompletePlotData=GeometryExtractor_fast(STLPath,AirfsDir,ProfilesAerodinamicDataDir,Steps,Delta,range_rpm,UnitFactor,Soundspeed,ni);
+    CompletePlotData=GeometryExtractor_fast(STLPath,AirfsDir,ProfilesAerodinamicDataDir,Steps,Delta,range_rpm,UnitFactor,Soundspeed,ni,cutoff,TrailCutPerc);
 
     %Adding PAD data to database so it wont need other stuff when running
     %polar
