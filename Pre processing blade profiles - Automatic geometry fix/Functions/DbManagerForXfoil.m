@@ -17,6 +17,7 @@ function status=DbManagerForXfoil(ProfilesDir,PolarsDir,xfoilDir,aDensity,ReDens
     n_iter int64
     end
         
+
         %How many xfoil calls can go wrong before declaring an entire
         %profile broken. 2 rows seems reasonable
         MaxNanStreak=aDensity*2;
@@ -143,6 +144,7 @@ function status=BuildPolars(ProfilesDir,ProfilesNamesArray,PolarsDir,xfoilDir,a_
                         XfoilSuccess=false;
 
                         fprintf(2,"Profile %s is mostly broken, skipping xfoil call\n",ProfileStruct(profilecounter).name)
+                        
 
                         progress=progress+1;
 

@@ -5,6 +5,9 @@ function FillDatabase(DatabasePath,RemovingTreshold,PercTreshold)
     %be set back on at the end of the script
     warning('off','MATLAB:interp1:NaNstrip')
 
+    %For logs
+    %#ok<*PRTCAL>
+
     load(DatabasePath,"Database");
 
     %Prevent code break when interpoalting on less than 2 values

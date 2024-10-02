@@ -669,14 +669,14 @@ function CompletePlotData=GeometryExtractor_fast(stlPath,AirfDir,PADDir,steps,d,
         %percentage of chord
         MaxToleratedDist=c*(base/100);
     
-        for i=1:size(Matrix)
+        for i=1:size(Matrix,1)
     
             x=Matrix(i,1);
             y=Matrix(i,2);
     
             found=false;
                       
-            for c=1:size(Umatrix)
+            for c=1:size(Umatrix,1)
 
                 xu=Umatrix(c,1);
                 yu=Umatrix(c,2);
