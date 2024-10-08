@@ -105,7 +105,7 @@ end
 function InputArray=InputStringBuilder(a,Re,Mach,n_iter,ncrit,LogXfoilDebug,PolarFilePath,ProfilePath)
                     
                     
-                    %%NB STRINGS ALREDY CONTAIN NEWLINE AT THEIR END!
+                    %%NB THOSE STRINGS ALREDY CONTAIN NEWLINE AT THEIR END!
                     %I REMOVED EVERY \n AT THE END OF EVERY INPUT
                     %INSTRUCTION, count as there's one additional \n
 
