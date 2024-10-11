@@ -10981,3 +10981,3226 @@ Nans percent: 60%
 Alredy filled
 Code execution completed
 Geometry Extraction time (s): 5.260333e+02
+Running the profile extractor...
+[Warning: Colon operands must be real scalars. This warning will become an error in a future release.] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('parallel_function', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\lang\parallel_function.m', 490)" style="font-weight:bold">parallel_function</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\lang\parallel_function.m',490,0)">line 490</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('GeometryExtractor_fast', 'C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\Functions\GeometryExtractor_fast.m', 64)" style="font-weight:bold">GeometryExtractor_fast</a> (<a href="matlab: opentoline('C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\Functions\GeometryExtractor_fast.m',64,0)">line 64</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('Autom8', 'C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\Autom8.m', 83)" style="font-weight:bold">Autom8</a> (<a href="matlab: opentoline('C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\Autom8.m',83,0)">line 83</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('DatabaseBuilding/RunButtonPushed', 'C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\AppFiles\DatabaseBuilding.mlapp', 231)" style="font-weight:bold">DatabaseBuilding/RunButtonPushed</a> (<a href="matlab: opentoline('C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\AppFiles\DatabaseBuilding.mlapp',231,0)">line 231</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('matlab.apps.AppBase>@(source,event)executeCallback(ams,app,callback,requiresEventData,event)', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\appdesigner\appdesigner\runtime\+matlab\+apps\AppBase.m', 60)" style="font-weight:bold">matlab.apps.AppBase>@(source,event)executeCallback(ams,app,callback,requiresEventData,event)</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\appdesigner\appdesigner\runtime\+matlab\+apps\AppBase.m',60,0)">line 60</a>)
+] 
+[Warning: Colon operands must be real scalars. This warning will become an error in a future release.] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('parallel_function', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\lang\parallel_function.m', 490)" style="font-weight:bold">parallel_function</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\lang\parallel_function.m',490,0)">line 490</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('GeometryExtractor_fast', 'C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\Functions\GeometryExtractor_fast.m', 64)" style="font-weight:bold">GeometryExtractor_fast</a> (<a href="matlab: opentoline('C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\Functions\GeometryExtractor_fast.m',64,0)">line 64</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('Autom8', 'C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\Autom8.m', 83)" style="font-weight:bold">Autom8</a> (<a href="matlab: opentoline('C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\Autom8.m',83,0)">line 83</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('DatabaseBuilding/RunButtonPushed', 'C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\AppFiles\DatabaseBuilding.mlapp', 231)" style="font-weight:bold">DatabaseBuilding/RunButtonPushed</a> (<a href="matlab: opentoline('C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\AppFiles\DatabaseBuilding.mlapp',231,0)">line 231</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('matlab.apps.AppBase>@(source,event)executeCallback(ams,app,callback,requiresEventData,event)', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\appdesigner\appdesigner\runtime\+matlab\+apps\AppBase.m', 60)" style="font-weight:bold">matlab.apps.AppBase>@(source,event)executeCallback(ams,app,callback,requiresEventData,event)</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\appdesigner\appdesigner\runtime\+matlab\+apps\AppBase.m',60,0)">line 60</a>)
+] 
+[Warning: Colon operands must be real scalars. This warning will become an error in a future release.] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('parallel_function', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\lang\parallel_function.m', 490)" style="font-weight:bold">parallel_function</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\lang\parallel_function.m',490,0)">line 490</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('GeometryExtractor_fast', 'C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\Functions\GeometryExtractor_fast.m', 64)" style="font-weight:bold">GeometryExtractor_fast</a> (<a href="matlab: opentoline('C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\Functions\GeometryExtractor_fast.m',64,0)">line 64</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('Autom8', 'C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\Autom8.m', 83)" style="font-weight:bold">Autom8</a> (<a href="matlab: opentoline('C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\Autom8.m',83,0)">line 83</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('DatabaseBuilding/RunButtonPushed', 'C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\AppFiles\DatabaseBuilding.mlapp', 231)" style="font-weight:bold">DatabaseBuilding/RunButtonPushed</a> (<a href="matlab: opentoline('C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\AppFiles\DatabaseBuilding.mlapp',231,0)">line 231</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('matlab.apps.AppBase>@(source,event)executeCallback(ams,app,callback,requiresEventData,event)', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\appdesigner\appdesigner\runtime\+matlab\+apps\AppBase.m', 60)" style="font-weight:bold">matlab.apps.AppBase>@(source,event)executeCallback(ams,app,callback,requiresEventData,event)</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\appdesigner\appdesigner\runtime\+matlab\+apps\AppBase.m',60,0)">line 60</a>)
+] 
+[Warning: Colon operands must be real scalars. This warning will become an error in a future release.] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('parallel_function', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\lang\parallel_function.m', 490)" style="font-weight:bold">parallel_function</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\lang\parallel_function.m',490,0)">line 490</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('GeometryExtractor_fast', 'C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\Functions\GeometryExtractor_fast.m', 64)" style="font-weight:bold">GeometryExtractor_fast</a> (<a href="matlab: opentoline('C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\Functions\GeometryExtractor_fast.m',64,0)">line 64</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('Autom8', 'C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\Autom8.m', 83)" style="font-weight:bold">Autom8</a> (<a href="matlab: opentoline('C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\Autom8.m',83,0)">line 83</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('DatabaseBuilding/RunButtonPushed', 'C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\AppFiles\DatabaseBuilding.mlapp', 231)" style="font-weight:bold">DatabaseBuilding/RunButtonPushed</a> (<a href="matlab: opentoline('C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\AppFiles\DatabaseBuilding.mlapp',231,0)">line 231</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('matlab.apps.AppBase>@(source,event)executeCallback(ams,app,callback,requiresEventData,event)', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\appdesigner\appdesigner\runtime\+matlab\+apps\AppBase.m', 60)" style="font-weight:bold">matlab.apps.AppBase>@(source,event)executeCallback(ams,app,callback,requiresEventData,event)</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\appdesigner\appdesigner\runtime\+matlab\+apps\AppBase.m',60,0)">line 60</a>)
+] 
+[Warning: Colon operands must be real scalars. This warning will become an error in a future release.] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('parallel_function', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\lang\parallel_function.m', 490)" style="font-weight:bold">parallel_function</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\lang\parallel_function.m',490,0)">line 490</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('GeometryExtractor_fast', 'C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\Functions\GeometryExtractor_fast.m', 64)" style="font-weight:bold">GeometryExtractor_fast</a> (<a href="matlab: opentoline('C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\Functions\GeometryExtractor_fast.m',64,0)">line 64</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('Autom8', 'C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\Autom8.m', 83)" style="font-weight:bold">Autom8</a> (<a href="matlab: opentoline('C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\Autom8.m',83,0)">line 83</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('DatabaseBuilding/RunButtonPushed', 'C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\AppFiles\DatabaseBuilding.mlapp', 231)" style="font-weight:bold">DatabaseBuilding/RunButtonPushed</a> (<a href="matlab: opentoline('C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\AppFiles\DatabaseBuilding.mlapp',231,0)">line 231</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('matlab.apps.AppBase>@(source,event)executeCallback(ams,app,callback,requiresEventData,event)', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\appdesigner\appdesigner\runtime\+matlab\+apps\AppBase.m', 60)" style="font-weight:bold">matlab.apps.AppBase>@(source,event)executeCallback(ams,app,callback,requiresEventData,event)</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\appdesigner\appdesigner\runtime\+matlab\+apps\AppBase.m',60,0)">line 60</a>)
+] 
+[Warning: Colon operands must be real scalars. This warning will become an error in a future release.] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('parallel_function', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\lang\parallel_function.m', 490)" style="font-weight:bold">parallel_function</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\lang\parallel_function.m',490,0)">line 490</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('GeometryExtractor_fast', 'C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\Functions\GeometryExtractor_fast.m', 64)" style="font-weight:bold">GeometryExtractor_fast</a> (<a href="matlab: opentoline('C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\Functions\GeometryExtractor_fast.m',64,0)">line 64</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('Autom8', 'C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\Autom8.m', 83)" style="font-weight:bold">Autom8</a> (<a href="matlab: opentoline('C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\Autom8.m',83,0)">line 83</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('DatabaseBuilding/RunButtonPushed', 'C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\AppFiles\DatabaseBuilding.mlapp', 231)" style="font-weight:bold">DatabaseBuilding/RunButtonPushed</a> (<a href="matlab: opentoline('C:\Users\leona\OneDrive - Politecnico di Torino\Dev\Autom8\GitHub\Autom8\Pre processing blade profiles - Automatic geometry fix\AppFiles\DatabaseBuilding.mlapp',231,0)">line 231</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('matlab.apps.AppBase>@(source,event)executeCallback(ams,app,callback,requiresEventData,event)', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\appdesigner\appdesigner\runtime\+matlab\+apps\AppBase.m', 60)" style="font-weight:bold">matlab.apps.AppBase>@(source,event)executeCallback(ams,app,callback,requiresEventData,event)</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\appdesigner\appdesigner\runtime\+matlab\+apps\AppBase.m',60,0)">line 60</a>)
+] 
+Profiles aerodinamic data PAD added successfully to Database!
+Profiles plot data added successfully to Database!
+Running the aerodinamic database manager with xfoil...
+
+--Starting database generation for Profile1--
+
+Processing profile Profile1 -alpha: -5 -Re: 7.774976e+03 -Mach: 0
+Total progress: 0.13% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -5 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 0.27% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -5 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 0.40% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -5 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 0.53% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -5 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 0.67% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -5 -Re: 4.664986e+04 -Mach: 0
+Total progress: 0.80% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -5 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 0.93% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -5 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 1.07% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -5 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 1.20% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -5 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 1.33% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -5 -Re: 8.552474e+04 -Mach: 0
+Total progress: 1.47% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -5 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 1.60% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -5 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 1.73% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -5 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 1.87% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -5 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 2.00% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -5 -Re: 1.243996e+05 -Mach: 0
+Total progress: 2.13% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -5 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 2.27% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -5 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 2.40% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -5 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 2.53% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -5 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 2.67% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -5 -Re: 1.632745e+05 -Mach: 0
+Total progress: 2.80% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -5 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 2.93% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -5 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 3.07% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -5 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 3.20% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -5 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 3.33% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 0
+Total progress: 3.47% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 3.60% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 3.73% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 3.87% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 4.00% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 0
+Total progress: 4.13% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 4.27% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 4.40% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 4.53% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 4.67% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 0
+Total progress: 4.80% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 4.93% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 5.07% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 5.20% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 5.33% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 0
+Total progress: 5.47% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 5.60% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 5.73% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 5.87% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 6.00% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 0
+Total progress: 6.13% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 6.27% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 6.40% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 6.53% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 6.67% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 0
+Total progress: 6.80% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 6.93% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 7.07% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 7.20% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 7.33% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 0
+Total progress: 7.47% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 7.60% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 7.73% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 7.87% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 8.00% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 0
+Total progress: 8.13% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 8.27% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 8.40% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 8.53% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 8.67% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 0
+Total progress: 8.80% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 8.93% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 9.07% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 9.20% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 9.33% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 0
+Total progress: 9.47% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 9.60% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 9.73% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 9.87% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 10.00% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 0
+Total progress: 10.13% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 10.27% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 10.40% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 10.53% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 10.67% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 0
+Total progress: 10.80% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 10.93% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 11.07% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 11.20% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 11.33% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 0
+Total progress: 11.47% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 11.60% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 11.73% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 11.87% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 12.00% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 0
+Total progress: 12.13% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 12.27% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 12.40% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 12.53% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 12.67% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 0
+Total progress: 12.80% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 12.93% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 13.07% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 13.20% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 13.33% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 12 -Re: 7.774976e+03 -Mach: 0
+Total progress: 13.47% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 12 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 13.60% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 12 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 13.73% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 12 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 13.87% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 12 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 14.00% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 12 -Re: 4.664986e+04 -Mach: 0
+Total progress: 14.13% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 12 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 14.27% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 12 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 14.40% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 12 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 14.53% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 12 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 14.67% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 12 -Re: 8.552474e+04 -Mach: 0
+Total progress: 14.80% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 12 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 14.93% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 12 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 15.07% 
+Waiting for xfoil........Task completed! :)
+
+Corrupted polars detected, SETTING ALL VALUES TO NAN, temporary solution..
+
+Processing profile Profile1 -alpha: 12 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 15.20% 
+Waiting for xfoil............Task completed! :)
+
+Corrupted polars detected, SETTING ALL VALUES TO NAN, temporary solution..
+
+Processing profile Profile1 -alpha: 12 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 15.33% 
+Waiting for xfoil............Task completed! :)
+
+Corrupted polars detected, SETTING ALL VALUES TO NAN, temporary solution..
+
+Processing profile Profile1 -alpha: 12 -Re: 1.243996e+05 -Mach: 0
+Total progress: 15.47% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 12 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 15.60% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 12 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 15.73% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 12 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 15.87% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 12 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 16.00% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 12 -Re: 1.632745e+05 -Mach: 0
+Total progress: 16.13% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 12 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 16.27% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 12 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 16.40% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 12 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 16.53% 
+Task completed! :)
+
+Processing profile Profile1 -alpha: 12 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 16.67% 
+Task completed! :)
+
+
+--Starting database generation for Profile2--
+
+Processing profile Profile2 -alpha: -5 -Re: 7.774976e+03 -Mach: 0
+Total progress: 16.80% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -5 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 16.93% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -5 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 17.07% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -5 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 17.20% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -5 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 17.33% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -5 -Re: 4.664986e+04 -Mach: 0
+Total progress: 17.47% 
+Waiting for xfoil.........Task completed! :)
+
+Corrupted polars detected, SETTING ALL VALUES TO NAN, temporary solution..
+
+Processing profile Profile2 -alpha: -5 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 17.60% 
+Waiting for xfoil.........Task completed! :)
+
+Corrupted polars detected, SETTING ALL VALUES TO NAN, temporary solution..
+
+Processing profile Profile2 -alpha: -5 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 17.73% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -5 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 17.87% 
+Waiting for xfoil..Task completed! :)
+
+Processing profile Profile2 -alpha: -5 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 18.00% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -5 -Re: 8.552474e+04 -Mach: 0
+Total progress: 18.13% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -5 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 18.27% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -5 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 18.40% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -5 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 18.53% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -5 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 18.67% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -5 -Re: 1.243996e+05 -Mach: 0
+Total progress: 18.80% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -5 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 18.93% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -5 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 19.07% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -5 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 19.20% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -5 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 19.33% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -5 -Re: 1.632745e+05 -Mach: 0
+Total progress: 19.47% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -5 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 19.60% 
+Waiting for xfoil......Task completed! :)
+
+Corrupted polars detected, SETTING ALL VALUES TO NAN, temporary solution..
+
+Processing profile Profile2 -alpha: -5 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 19.73% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -5 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 19.87% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -5 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 20.00% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 0
+Total progress: 20.13% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 20.27% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 20.40% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 20.53% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 20.67% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 0
+Total progress: 20.80% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 20.93% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 21.07% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 21.20% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 21.33% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 0
+Total progress: 21.47% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 21.60% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 21.73% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 21.87% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 22.00% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 0
+Total progress: 22.13% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 22.27% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 22.40% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 22.53% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 22.67% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 0
+Total progress: 22.80% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 22.93% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 23.07% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 23.20% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 23.33% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 0
+Total progress: 23.47% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 23.60% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 23.73% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 23.87% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 24.00% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 0
+Total progress: 24.13% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 24.27% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 24.40% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 24.53% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 24.67% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 0
+Total progress: 24.80% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 24.93% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 25.07% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 25.20% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 25.33% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 0
+Total progress: 25.47% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 25.60% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 25.73% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 25.87% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 26.00% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 0
+Total progress: 26.13% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 26.27% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 26.40% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 26.53% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 26.67% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 0
+Total progress: 26.80% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 26.93% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 27.07% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 27.20% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 27.33% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 0
+Total progress: 27.47% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 27.60% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 27.73% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 27.87% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 28.00% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 0
+Total progress: 28.13% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 28.27% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 28.40% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 28.53% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 28.67% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 0
+Total progress: 28.80% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 28.93% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 29.07% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 29.20% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 29.33% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 0
+Total progress: 29.47% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 29.60% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 29.73% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 29.87% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 30.00% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 12 -Re: 7.774976e+03 -Mach: 0
+Total progress: 30.13% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 12 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 30.27% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 12 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 30.40% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 12 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 30.53% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 12 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 30.67% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 12 -Re: 4.664986e+04 -Mach: 0
+Total progress: 30.80% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 12 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 30.93% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 12 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 31.07% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 12 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 31.20% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 12 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 31.33% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 12 -Re: 8.552474e+04 -Mach: 0
+Total progress: 31.47% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 12 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 31.60% 
+Waiting for xfoil.Task completed! :)
+
+Processing profile Profile2 -alpha: 12 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 31.73% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 12 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 31.87% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 12 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 32.00% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 12 -Re: 1.243996e+05 -Mach: 0
+Total progress: 32.13% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 12 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 32.27% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 12 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 32.40% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 12 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 32.53% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 12 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 32.67% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 12 -Re: 1.632745e+05 -Mach: 0
+Total progress: 32.80% 
+Waiting for xfoil........Task completed! :)
+
+Corrupted polars detected, SETTING ALL VALUES TO NAN, temporary solution..
+
+Processing profile Profile2 -alpha: 12 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 32.93% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 12 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 33.07% 
+Task completed! :)
+
+Processing profile Profile2 -alpha: 12 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 33.20% 
+Waiting for xfoil.......Task completed! :)
+
+Corrupted polars detected, SETTING ALL VALUES TO NAN, temporary solution..
+
+Processing profile Profile2 -alpha: 12 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 33.33% 
+Task completed! :)
+
+
+--Starting database generation for Profile3--
+
+Processing profile Profile3 -alpha: -5 -Re: 7.774976e+03 -Mach: 0
+Total progress: 33.47% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -5 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 33.60% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -5 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 33.73% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -5 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 33.87% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -5 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 34.00% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -5 -Re: 4.664986e+04 -Mach: 0
+Total progress: 34.13% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -5 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 34.27% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -5 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 34.40% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -5 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 34.53% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -5 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 34.67% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -5 -Re: 8.552474e+04 -Mach: 0
+Total progress: 34.80% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -5 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 34.93% 
+Waiting for xfoil......Task completed! :)
+
+Corrupted polars detected, SETTING ALL VALUES TO NAN, temporary solution..
+
+Processing profile Profile3 -alpha: -5 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 35.07% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -5 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 35.20% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -5 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 35.33% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -5 -Re: 1.243996e+05 -Mach: 0
+Total progress: 35.47% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -5 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 35.60% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -5 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 35.73% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -5 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 35.87% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -5 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 36.00% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -5 -Re: 1.632745e+05 -Mach: 0
+Total progress: 36.13% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -5 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 36.27% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -5 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 36.40% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -5 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 36.53% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -5 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 36.67% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 0
+Total progress: 36.80% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 36.93% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 37.07% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 37.20% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 37.33% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 0
+Total progress: 37.47% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 37.60% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 37.73% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 37.87% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 38.00% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 0
+Total progress: 38.13% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 38.27% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 38.40% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 38.53% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 38.67% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 0
+Total progress: 38.80% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 38.93% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 39.07% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 39.20% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 39.33% 
+Waiting for xfoil.......Task completed! :)
+
+Corrupted polars detected, SETTING ALL VALUES TO NAN, temporary solution..
+
+Processing profile Profile3 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 0
+Total progress: 39.47% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 39.60% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 39.73% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 39.87% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 40.00% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 0
+Total progress: 40.13% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 40.27% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 40.40% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 40.53% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 40.67% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 0
+Total progress: 40.80% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 40.93% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 41.07% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 41.20% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 41.33% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 0
+Total progress: 41.47% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 41.60% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 41.73% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 41.87% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 42.00% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 0
+Total progress: 42.13% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 42.27% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 42.40% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 42.53% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 42.67% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 0
+Total progress: 42.80% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 42.93% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 43.07% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 43.20% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 43.33% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 0
+Total progress: 43.47% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 43.60% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 43.73% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 43.87% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 44.00% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 0
+Total progress: 44.13% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 44.27% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 44.40% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 44.53% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 44.67% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 0
+Total progress: 44.80% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 44.93% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 45.07% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 45.20% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 45.33% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 0
+Total progress: 45.47% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 45.60% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 45.73% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 45.87% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 46.00% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 0
+Total progress: 46.13% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 46.27% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 46.40% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 46.53% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 46.67% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 12 -Re: 7.774976e+03 -Mach: 0
+Total progress: 46.80% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 12 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 46.93% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 12 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 47.07% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 12 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 47.20% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 12 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 47.33% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 12 -Re: 4.664986e+04 -Mach: 0
+Total progress: 47.47% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 12 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 47.60% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 12 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 47.73% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 12 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 47.87% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 12 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 48.00% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 12 -Re: 8.552474e+04 -Mach: 0
+Total progress: 48.13% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 12 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 48.27% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 12 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 48.40% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 12 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 48.53% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 12 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 48.67% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 12 -Re: 1.243996e+05 -Mach: 0
+Total progress: 48.80% 
+Waiting for xfoil.......Task completed! :)
+
+Corrupted polars detected, SETTING ALL VALUES TO NAN, temporary solution..
+
+Processing profile Profile3 -alpha: 12 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 48.93% 
+Waiting for xfoil........Task completed! :)
+
+Corrupted polars detected, SETTING ALL VALUES TO NAN, temporary solution..
+
+Processing profile Profile3 -alpha: 12 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 49.07% 
+Waiting for xfoil.......Task completed! :)
+
+Corrupted polars detected, SETTING ALL VALUES TO NAN, temporary solution..
+
+Processing profile Profile3 -alpha: 12 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 49.20% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 12 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 49.33% 
+Waiting for xfoil.......Task completed! :)
+
+Corrupted polars detected, SETTING ALL VALUES TO NAN, temporary solution..
+
+Processing profile Profile3 -alpha: 12 -Re: 1.632745e+05 -Mach: 0
+Total progress: 49.47% 
+Waiting for xfoil......Task completed! :)
+
+Processing profile Profile3 -alpha: 12 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 49.60% 
+Waiting for xfoil..Task completed! :)
+
+Processing profile Profile3 -alpha: 12 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 49.73% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 12 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 49.87% 
+Task completed! :)
+
+Processing profile Profile3 -alpha: 12 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 50.00% 
+Waiting for xfoil........Task completed! :)
+
+Corrupted polars detected, SETTING ALL VALUES TO NAN, temporary solution..
+
+
+--Starting database generation for Profile4--
+
+Processing profile Profile4 -alpha: -5 -Re: 7.774976e+03 -Mach: 0
+Total progress: 50.13% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -5 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 50.27% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -5 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 50.40% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -5 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 50.53% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -5 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 50.67% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -5 -Re: 4.664986e+04 -Mach: 0
+Total progress: 50.80% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -5 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 50.93% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -5 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 51.07% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -5 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 51.20% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -5 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 51.33% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -5 -Re: 8.552474e+04 -Mach: 0
+Total progress: 51.47% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -5 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 51.60% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -5 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 51.73% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -5 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 51.87% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -5 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 52.00% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -5 -Re: 1.243996e+05 -Mach: 0
+Total progress: 52.13% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -5 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 52.27% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -5 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 52.40% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -5 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 52.53% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -5 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 52.67% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -5 -Re: 1.632745e+05 -Mach: 0
+Total progress: 52.80% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -5 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 52.93% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -5 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 53.07% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -5 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 53.20% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -5 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 53.33% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 0
+Total progress: 53.47% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 53.60% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 53.73% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 53.87% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 54.00% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 0
+Total progress: 54.13% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 54.27% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 54.40% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 54.53% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 54.67% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 0
+Total progress: 54.80% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 54.93% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 55.07% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 55.20% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 55.33% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 0
+Total progress: 55.47% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 55.60% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 55.73% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 55.87% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 56.00% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 0
+Total progress: 56.13% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 56.27% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 56.40% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 56.53% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 56.67% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 0
+Total progress: 56.80% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 56.93% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 57.07% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 57.20% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 57.33% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 0
+Total progress: 57.47% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 57.60% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 57.73% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 57.87% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 58.00% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 0
+Total progress: 58.13% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 58.27% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 58.40% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 58.53% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 58.67% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 0
+Total progress: 58.80% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 58.93% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 59.07% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 59.20% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 59.33% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 0
+Total progress: 59.47% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 59.60% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 59.73% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 59.87% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 60.00% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 0
+Total progress: 60.13% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 60.27% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 60.40% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 60.53% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 60.67% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 0
+Total progress: 60.80% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 60.93% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 61.07% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 61.20% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 61.33% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 0
+Total progress: 61.47% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 61.60% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 61.73% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 61.87% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 62.00% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 0
+Total progress: 62.13% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 62.27% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 62.40% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 62.53% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 62.67% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 0
+Total progress: 62.80% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 62.93% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 63.07% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 63.20% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 63.33% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 12 -Re: 7.774976e+03 -Mach: 0
+Total progress: 63.47% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 12 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 63.60% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 12 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 63.73% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 12 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 63.87% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 12 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 64.00% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 12 -Re: 4.664986e+04 -Mach: 0
+Total progress: 64.13% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 12 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 64.27% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 12 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 64.40% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 12 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 64.53% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 12 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 64.67% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 12 -Re: 8.552474e+04 -Mach: 0
+Total progress: 64.80% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 12 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 64.93% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 12 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 65.07% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 12 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 65.20% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 12 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 65.33% 
+Waiting for xfoil..............................Killing process :(
+
+Xfoil killed, SETTING ALL VALUES TO NAN as temporary solution..
+
+Processing profile Profile4 -alpha: 12 -Re: 1.243996e+05 -Mach: 0
+Total progress: 65.47% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 12 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 65.60% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 12 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 65.73% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 12 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 65.87% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 12 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 66.00% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 12 -Re: 1.632745e+05 -Mach: 0
+Total progress: 66.13% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 12 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 66.27% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 12 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 66.40% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 12 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 66.53% 
+Task completed! :)
+
+Processing profile Profile4 -alpha: 12 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 66.67% 
+Task completed! :)
+
+
+--Starting database generation for Profile5--
+
+Processing profile Profile5 -alpha: -5 -Re: 7.774976e+03 -Mach: 0
+Total progress: 66.80% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -5 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 66.93% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -5 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 67.07% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -5 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 67.20% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -5 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 67.33% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -5 -Re: 4.664986e+04 -Mach: 0
+Total progress: 67.47% 
+Waiting for xfoil........Task completed! :)
+
+Corrupted polars detected, SETTING ALL VALUES TO NAN, temporary solution..
+
+Processing profile Profile5 -alpha: -5 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 67.60% 
+Waiting for xfoil........Task completed! :)
+
+Corrupted polars detected, SETTING ALL VALUES TO NAN, temporary solution..
+
+Processing profile Profile5 -alpha: -5 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 67.73% 
+Waiting for xfoil........Task completed! :)
+
+Corrupted polars detected, SETTING ALL VALUES TO NAN, temporary solution..
+
+Processing profile Profile5 -alpha: -5 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 67.87% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -5 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 68.00% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -5 -Re: 8.552474e+04 -Mach: 0
+Total progress: 68.13% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -5 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 68.27% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -5 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 68.40% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -5 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 68.53% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -5 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 68.67% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -5 -Re: 1.243996e+05 -Mach: 0
+Total progress: 68.80% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -5 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 68.93% 
+Waiting for xfoil.........Task completed! :)
+
+Corrupted polars detected, SETTING ALL VALUES TO NAN, temporary solution..
+
+Processing profile Profile5 -alpha: -5 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 69.07% 
+Waiting for xfoil.........Task completed! :)
+
+Corrupted polars detected, SETTING ALL VALUES TO NAN, temporary solution..
+
+Processing profile Profile5 -alpha: -5 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 69.20% 
+Waiting for xfoil.........Task completed! :)
+
+Corrupted polars detected, SETTING ALL VALUES TO NAN, temporary solution..
+
+Processing profile Profile5 -alpha: -5 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 69.33% 
+Waiting for xfoil.........Task completed! :)
+
+Corrupted polars detected, SETTING ALL VALUES TO NAN, temporary solution..
+
+Processing profile Profile5 -alpha: -5 -Re: 1.632745e+05 -Mach: 0
+Total progress: 69.47% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -5 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 69.60% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -5 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 69.73% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -5 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 69.87% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -5 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 70.00% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 0
+Total progress: 70.13% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 70.27% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 70.40% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 70.53% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 70.67% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 0
+Total progress: 70.80% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 70.93% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 71.07% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 71.20% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 71.33% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 0
+Total progress: 71.47% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 71.60% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 71.73% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 71.87% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 72.00% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 0
+Total progress: 72.13% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 72.27% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 72.40% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 72.53% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 72.67% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 0
+Total progress: 72.80% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 72.93% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 73.07% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 73.20% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 73.33% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 0
+Total progress: 73.47% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 73.60% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 73.73% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 73.87% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 74.00% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 0
+Total progress: 74.13% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 74.27% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 74.40% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 74.53% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 74.67% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 0
+Total progress: 74.80% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 74.93% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 75.07% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 75.20% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 75.33% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 0
+Total progress: 75.47% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 75.60% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 75.73% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 75.87% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 76.00% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 0
+Total progress: 76.13% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 76.27% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 76.40% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 76.53% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 76.67% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 0
+Total progress: 76.80% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 76.93% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 77.07% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 77.20% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 77.33% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 0
+Total progress: 77.47% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 77.60% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 77.73% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 77.87% 
+Waiting for xfoil.........Task completed! :)
+
+Corrupted polars detected, SETTING ALL VALUES TO NAN, temporary solution..
+
+Processing profile Profile5 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 78.00% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 0
+Total progress: 78.13% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 78.27% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 78.40% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 78.53% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 78.67% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 0
+Total progress: 78.80% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 78.93% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 79.07% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 79.20% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 79.33% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 0
+Total progress: 79.47% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 79.60% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 79.73% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 79.87% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 80.00% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 12 -Re: 7.774976e+03 -Mach: 0
+Total progress: 80.13% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 12 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 80.27% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 12 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 80.40% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 12 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 80.53% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 12 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 80.67% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 12 -Re: 4.664986e+04 -Mach: 0
+Total progress: 80.80% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 12 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 80.93% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 12 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 81.07% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 12 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 81.20% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 12 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 81.33% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 12 -Re: 8.552474e+04 -Mach: 0
+Total progress: 81.47% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 12 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 81.60% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 12 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 81.73% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 12 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 81.87% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 12 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 82.00% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 12 -Re: 1.243996e+05 -Mach: 0
+Total progress: 82.13% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 12 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 82.27% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 12 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 82.40% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 12 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 82.53% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 12 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 82.67% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 12 -Re: 1.632745e+05 -Mach: 0
+Total progress: 82.80% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 12 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 82.93% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 12 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 83.07% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 12 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 83.20% 
+Task completed! :)
+
+Processing profile Profile5 -alpha: 12 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 83.33% 
+Task completed! :)
+
+
+--Starting database generation for Profile6--
+
+Processing profile Profile6 -alpha: -5 -Re: 7.774976e+03 -Mach: 0
+Total progress: 83.47% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -5 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 83.60% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -5 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 83.73% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -5 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 83.87% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -5 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 84.00% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -5 -Re: 4.664986e+04 -Mach: 0
+Total progress: 84.13% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -5 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 84.27% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -5 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 84.40% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -5 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 84.53% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -5 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 84.67% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -5 -Re: 8.552474e+04 -Mach: 0
+Total progress: 84.80% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -5 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 84.93% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -5 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 85.07% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -5 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 85.20% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -5 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 85.33% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -5 -Re: 1.243996e+05 -Mach: 0
+Total progress: 85.47% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -5 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 85.60% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -5 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 85.73% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -5 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 85.87% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -5 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 86.00% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -5 -Re: 1.632745e+05 -Mach: 0
+Total progress: 86.13% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -5 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 86.27% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -5 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 86.40% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -5 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 86.53% 
+Waiting for xfoil.....Task completed! :)
+
+Corrupted polars detected, SETTING ALL VALUES TO NAN, temporary solution..
+
+Processing profile Profile6 -alpha: -5 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 86.67% 
+Waiting for xfoil......Task completed! :)
+
+Corrupted polars detected, SETTING ALL VALUES TO NAN, temporary solution..
+
+Processing profile Profile6 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 0
+Total progress: 86.80% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 86.93% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 87.07% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 87.20% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -7.500000e-01 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 87.33% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 0
+Total progress: 87.47% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 87.60% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 87.73% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 87.87% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -7.500000e-01 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 88.00% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 0
+Total progress: 88.13% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 88.27% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 88.40% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 88.53% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -7.500000e-01 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 88.67% 
+Waiting for xfoil.Task completed! :)
+
+Processing profile Profile6 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 0
+Total progress: 88.80% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 88.93% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 89.07% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 89.20% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -7.500000e-01 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 89.33% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 0
+Total progress: 89.47% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 89.60% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 89.73% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 89.87% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: -7.500000e-01 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 90.00% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 0
+Total progress: 90.13% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 90.27% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 90.40% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 90.53% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 3.500000e+00 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 90.67% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 0
+Total progress: 90.80% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 90.93% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 91.07% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 91.20% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 3.500000e+00 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 91.33% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 0
+Total progress: 91.47% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 91.60% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 91.73% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 91.87% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 3.500000e+00 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 92.00% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 0
+Total progress: 92.13% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 92.27% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 92.40% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 92.53% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 3.500000e+00 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 92.67% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 0
+Total progress: 92.80% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 92.93% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 93.07% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 93.20% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 3.500000e+00 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 93.33% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 0
+Total progress: 93.47% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 93.60% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 93.73% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 93.87% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 7.750000e+00 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 94.00% 
+Waiting for xfoil......Task completed! :)
+
+Processing profile Profile6 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 0
+Total progress: 94.13% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 94.27% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 94.40% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 94.53% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 7.750000e+00 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 94.67% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 0
+Total progress: 94.80% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 94.93% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 95.07% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 95.20% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 7.750000e+00 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 95.33% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 0
+Total progress: 95.47% 
+Waiting for xfoil........Task completed! :)
+
+Corrupted polars detected, SETTING ALL VALUES TO NAN, temporary solution..
+
+Processing profile Profile6 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 95.60% 
+Waiting for xfoil.......Task completed! :)
+
+Corrupted polars detected, SETTING ALL VALUES TO NAN, temporary solution..
+
+Processing profile Profile6 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 95.73% 
+Waiting for xfoil.......Task completed! :)
+
+Corrupted polars detected, SETTING ALL VALUES TO NAN, temporary solution..
+
+Processing profile Profile6 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 95.87% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 7.750000e+00 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 96.00% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 0
+Total progress: 96.13% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 96.27% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 96.40% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 96.53% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 7.750000e+00 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 96.67% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 12 -Re: 7.774976e+03 -Mach: 0
+Total progress: 96.80% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 12 -Re: 7.774976e+03 -Mach: 5.062050e-02
+Total progress: 96.93% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 12 -Re: 7.774976e+03 -Mach: 1.012410e-01
+Total progress: 97.07% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 12 -Re: 7.774976e+03 -Mach: 1.518615e-01
+Total progress: 97.20% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 12 -Re: 7.774976e+03 -Mach: 2.024820e-01
+Total progress: 97.33% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 12 -Re: 4.664986e+04 -Mach: 0
+Total progress: 97.47% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 12 -Re: 4.664986e+04 -Mach: 5.062050e-02
+Total progress: 97.60% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 12 -Re: 4.664986e+04 -Mach: 1.012410e-01
+Total progress: 97.73% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 12 -Re: 4.664986e+04 -Mach: 1.518615e-01
+Total progress: 97.87% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 12 -Re: 4.664986e+04 -Mach: 2.024820e-01
+Total progress: 98.00% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 12 -Re: 8.552474e+04 -Mach: 0
+Total progress: 98.13% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 12 -Re: 8.552474e+04 -Mach: 5.062050e-02
+Total progress: 98.27% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 12 -Re: 8.552474e+04 -Mach: 1.012410e-01
+Total progress: 98.40% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 12 -Re: 8.552474e+04 -Mach: 1.518615e-01
+Total progress: 98.53% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 12 -Re: 8.552474e+04 -Mach: 2.024820e-01
+Total progress: 98.67% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 12 -Re: 1.243996e+05 -Mach: 0
+Total progress: 98.80% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 12 -Re: 1.243996e+05 -Mach: 5.062050e-02
+Total progress: 98.93% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 12 -Re: 1.243996e+05 -Mach: 1.012410e-01
+Total progress: 99.07% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 12 -Re: 1.243996e+05 -Mach: 1.518615e-01
+Total progress: 99.20% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 12 -Re: 1.243996e+05 -Mach: 2.024820e-01
+Total progress: 99.33% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 12 -Re: 1.632745e+05 -Mach: 0
+Total progress: 99.47% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 12 -Re: 1.632745e+05 -Mach: 5.062050e-02
+Total progress: 99.60% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 12 -Re: 1.632745e+05 -Mach: 1.012410e-01
+Total progress: 99.73% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 12 -Re: 1.632745e+05 -Mach: 1.518615e-01
+Total progress: 99.87% 
+Task completed! :)
+
+Processing profile Profile6 -alpha: 12 -Re: 1.632745e+05 -Mach: 2.024820e-01
+Total progress: 100.00% 
+Task completed! :)
+
+Xfoil task completion success for Profile1: 100.00% with 97.60% correct polars
+Xfoil task completion success for Profile2: 100.00% with 96.00% correct polars
+Xfoil task completion success for Profile3: 100.00% with 94.40% correct polars
+Xfoil task completion success for Profile4: 99.20% with 99.20% correct polars
+Xfoil task completion success for Profile5: 100.00% with 93.60% correct polars
+Xfoil task completion success for Profile6: 100.00% with 96.00% correct polars
+Running database filler with interpolation...
+Interpoaltion direction chosen: mach
+Number of Nans: 3
+Number of correct values: 2
+Nans percent: 60%
+
+Alredy filled
+Alredy filled
+Interpoaltion direction chosen: mach
+Number of Nans: 2
+Number of correct values: 3
+Nans percent: 40%
+
+Alredy filled
+Interpoaltion direction chosen: mach
+Number of Nans: 1
+Number of correct values: 4
+Nans percent: 20%
+
+Interpoaltion direction chosen: mach
+Number of Nans: 2
+Number of correct values: 3
+Nans percent: 40%
+
+Alredy filled
+Interpoaltion direction chosen: mach
+Number of Nans: 1
+Number of correct values: 4
+Nans percent: 20%
+
+Interpoaltion direction chosen: mach
+Number of Nans: 1
+Number of correct values: 4
+Nans percent: 20%
+
+Interpoaltion direction chosen: re
+Number of Nans: 1
+Number of correct values: 4
+Nans percent: 20%
+
+Interpoaltion direction chosen: mach
+Number of Nans: 3
+Number of correct values: 2
+Nans percent: 60%
+
+Alredy filled
+Alredy filled
+Interpoaltion direction chosen: mach
+Number of Nans: 1
+Number of correct values: 4
+Nans percent: 20%
+
+Interpoaltion direction chosen: mach
+Number of Nans: 1
+Number of correct values: 4
+Nans percent: 20%
+
+Interpoaltion direction chosen: mach
+Number of Nans: 3
+Number of correct values: 2
+Nans percent: 60%
+
+Alredy filled
+Alredy filled
+Interpoaltion direction chosen: re
+Number of Nans: 1
+Number of correct values: 4
+Nans percent: 20%
+
+Interpoaltion direction chosen: mach
+Number of Nans: 3
+Number of correct values: 2
+Nans percent: 60%
+
+Alredy filled
+Alredy filled
+Interpoaltion direction chosen: mach
+Number of Nans: 1
+Number of correct values: 4
+Nans percent: 20%
+
+Interpoaltion direction chosen: mach
+Number of Nans: 2
+Number of correct values: 3
+Nans percent: 40%
+
+Alredy filled
+Interpoaltion direction chosen: mach
+Number of Nans: 3
+Number of correct values: 2
+Nans percent: 60%
+
+Alredy filled
+Code execution completed
+Geometry Extraction time (s): 2.884178e+02
