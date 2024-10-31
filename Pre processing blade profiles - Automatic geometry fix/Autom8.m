@@ -1,15 +1,8 @@
-function Autom8(Filename,ExtractProfiles,GenerateXfoilDatabase,RunChordTwistDist,RunDatabaseFiller,RunInterpolationPolar)
+function Autom8(Parameters)
 
     arguments
-    Filename string  % MC: I added an additional argument to save the structure RotorDatabase with a specific name. This should be extended for the other saves; graphs; airfoils; plots.  
-    ExtractProfiles logical 
-    GenerateXfoilDatabase logical
-    RunChordTwistDist logical
-    RunDatabaseFiller logical
-    RunInterpolationPolar logical
+    Parameters struct
     end
-
- 
 
 %% Debug suppressing and variables/pointers cleaning
 
@@ -23,140 +16,87 @@ fclose all;
 FunctionsDir="Functions/";
 addpath(FunctionsDir)
 
-%% Save paths
+%% All parameters tuning and explanation
 
+%save locations and folder names
+Filename=Parameters.FileName;
+DatabasePath=strcat(Filename,".mat");
 PolarsDir="Polars\\";
 AirfsDir="Profiles/";
 GraphsDir="Graphs/";
 ProfilesAerodinamicDataDir="PAD/";
 xfoilDir="xfoil\\";
 BenchmarkAeroacousticDir="aeroacoustic benchmark graphs/";
-STLDir="STL/";
-DatabasePath=strcat(Filename,".mat");
 gifFile="Sequence.gif";
+STLPath="STL/"+Parameters.StlPath;
+LogsPath="Logs/"+Parameters.LogsFileName+".txt";
+
+%External factors, not tied to geometry shape
+range_rpm=Parameters.range_rpm;
+Soundspeed=Parameters.Soundspeed;
+UnitFactor=Parameters.uf;
+ni=Parameters.ni;
+
+%Modules running flags
+ExtractProfiles=Parameters.ExtractorBool;
+GenerateXfoilDatabase=Parameters.XfoilDbBool;
+RunDatabaseFiller=Parameters.DbFillerBool;
+
+% Profile extractor options
+Steps=Parameters.Steps;     %Number of slices
+cutoff=Parameters.cutoff;   %Radial cut percentage before root. Avoid unnecessary geometries
+TrailCutPerc=Parameters.TrailCutPerc;%Trail cut in a 2D profile
+Delta=Parameters.Delta; %Radial scanning radius percentage
+
+%Xfoil database options
+DebugLogXfoil=Parameters.dbxf;%chose if xfoil should open new windows and log its output into console (Only for debug, leave it false to avoid crash when not converging)
+killtime_s=Parameters.killtime;
+dbdens=Parameters.dbdens; % >4 recommended
+    aDensity=dbdens;
+    MachDensity=dbdens;
+    ReDensity=dbdens;
+n_iter=Parameters.niter;%see xfoil manual
+ncrit=Parameters.ncrit;%see xfoil manual
+
+% Database filler options
+RemovingTreshold=Parameters.rmt;%If number of valid values in a row is less than this the profile is removed from interpolation. Minimum supported 2 (very raw interpolation, max Row size
+PercTreshold=Parameters.perct;%Additional check, to interpolate on more consistent rows. If percentage of nans value is above this percentage skip this interpolation. Set to 100 to turn this check off. Low values might cause everything to be discarded.
+
+% Folder checker
+FolderWait=0.1;%Time to wait after each print, just for logs reading facility
+FolderCheck=FolderManager(Steps,ExtractProfiles,gifFile,GenerateXfoilDatabase,PolarsDir,AirfsDir,GraphsDir,ProfilesAerodinamicDataDir,xfoilDir,BenchmarkAeroacousticDir,FunctionsDir,STLPath,DatabasePath,aDensity,ReDensity,MachDensity,FolderWait);%Returns a structure with info about paths and files position
 
 
-%% constants and parameters
-%now into dlg to prevent incorrect unit factor
-
-Cs=PresetDlg({'MinRpm','MaxRpm','Soundspeed','UnitFactor','ni'},{'2800','3200','330','1e-3','1.5e-5'});
-
-range_rpm=str2double([Cs.MinRpm,Cs.MaxRpm]); %rpm
-Soundspeed=str2double(Cs.Soundspeed); %m/s
-UnitFactor=str2double(Cs.UnitFactor);   %mm default
-ni=str2double(Cs.ni);   %I.S. default
-
-%% Main options, choose wich module to run (now in func args)
-%its heavily suggested to run all the modules togheter
-
-%generate profiles from stl. Also runs geometry manual fixer
-
-%ExtractProfiles;
-
-
-%whether to generate database with xfoil or not
-
-%GenerateXfoilDatabase;
-
-
-%whether to run the twist and chord distribution comparation tool
-
-%RunChordTwistDist;
-
-
-%Whether to run database filler
-
-%RunDatabaseFiller;
-
-
-%Whether to run interpolation polar
-
-%RunInterpolationPolar;
-
-%% Profile extractor options
-
-GenerateGif=false;
-
-HoldGraphs=false;
-
-% a detailed debug graph with numbers on every point
-DebugGraphNumbered=false;
-
-%Number of slices
-Steps=20;
-
-Delta=2; %Radial scanning radius percentage
-
-%% Xfoil database options
-
-%chose if xfoil should open new windows and log its output into console
-%(Only for debug, leave it false to avoid crash when not converging)
-DebugLogXfoil=false;
-
-killtime_s=4;   %In seconds, must be > 1 and multiple of 1
-
-% >4 recommended
-%Must all be the same or interp3 wont work
-aDensity=10;
-MachDensity=10;
-ReDensity=10;
-
-n_iter=300;
-ncrit=9;
-
-%% Database filler options
-
-%If number of valid values in a row is less than this the profile is removed from
-%interpolation. Minimum supported 2 (very raw interpolation) to Row size
-RemovingTreshold=2;
-
-%Additional check, to interpolate on more consistent rows. If percentage of nans
-%value is above this percentage skip this interpolation. Set to 100 to
-%turn this check off. Low values might cause everything to be discarded.
-PercTreshold=100;
-
-
-%% Folder checker
-
-%Time to wait after each print, just for logs reading facility
-FolderWait=0.1;
-
-%Skip stl check if theres no profile extracting need
-if ExtractProfiles
-    Value=PresetDlg("Stl_path","STL/5.STL");
-    STLPath=string(Value.Stl_path);
-else
-    STLPath="";
-end
-
-%Returns a structure with info about paths and files position
-FolderCheck=FolderManager(Steps,ExtractProfiles,gifFile,GenerateXfoilDatabase,RunChordTwistDist,RunInterpolationPolar,PolarsDir,AirfsDir,GraphsDir,ProfilesAerodinamicDataDir,xfoilDir,BenchmarkAeroacousticDir,FunctionsDir,STLPath,DatabasePath,aDensity,ReDensity,MachDensity,FolderWait);
-
+%% start timing
 tic
+
+%Preparing logs file
+diary(LogsPath)
+
 %% Running section
+
 
 
 %Profile extractor
 if ExtractProfiles && FolderCheck.stl && FolderCheck.functions
-    disp("Running the profile extractor...")
-    GeometryExtractor_fast(STLPath,AirfsDir,GraphsDir,ProfilesAerodinamicDataDir,GenerateGif,Steps,Delta,HoldGraphs,DebugGraphNumbered,range_rpm,UnitFactor,Soundspeed,ni);
+    fprintf("Running the profile extractor...\n")
+    CompletePlotData=GeometryExtractor_fast(STLPath,AirfsDir,ProfilesAerodinamicDataDir,Steps,Delta,range_rpm,UnitFactor,Soundspeed,ni,cutoff,TrailCutPerc);
 
     %Adding PAD data to database so it wont need other stuff when running
     %polar
     InsertPadInDatabase(DatabasePath,ProfilesAerodinamicDataDir,AirfsDir);
 
+    %Adding Profiles plotting data into Database
+    if not(isempty(CompletePlotData.PlotData))
+    InsertPlotDataInDatabase(DatabasePath,CompletePlotData);
+    end
+   
 end
 
 %Xf database
 if GenerateXfoilDatabase && FolderCheck.bladedet && FolderCheck.xfoil && FolderCheck.functions
-    disp("Running the aerodinamic database manager with xfoil...")
+    fprintf("Running the aerodinamic database manager with xfoil...\n")
     FolderCheck.dbmanager=DbManagerForXfoil(AirfsDir,PolarsDir,xfoilDir,aDensity,ReDensity,MachDensity,killtime_s,DatabasePath,DebugLogXfoil,ncrit,n_iter);
-end
-
-%ChordTwistdistibution
-if RunChordTwistDist && FolderCheck.pad && FolderCheck.csv && FolderCheck.functions
-    disp("Running twist and chord distribution extractor...")
-    FolderCheck.twist=TwistAndChordDist(ProfilesAerodinamicDataDir,BenchmarkAeroacousticDir); 
 end
 
 %Database filler
@@ -165,23 +105,43 @@ if RunDatabaseFiller && FolderCheck.db
     FillDatabase(DatabasePath,RemovingTreshold,PercTreshold)
 end
 
-%Interpolation polar
-if RunInterpolationPolar && FolderCheck.pad && FolderCheck.db && FolderCheck.bladedet && FolderCheck.functions
-
-    if RunInterpolationPolar && not(ExtractProfiles)
-        fprintf(2,"\nBe sure to have PAD folder synced with database content.\nDo not use the polar function if you started a new profile extraction and the database isn't updated!\n\n")
-        pause(2)
-    end
-
-    load(DatabasePath);
-    disp("Running interpolation polar calulator..")
-    PolarMenu(Database);
-end
-
-
-%Autom8 function end
+%% Function end operation
+%End timing
 t=toc;
 
-disp('Geometry Extraction time (s):')
-disp(t)
+fprintf("Code execution completed\nGeometry Extraction time (s): %d\n",t);
+diary off
 end
+
+%% Dev comments
+
+%Since this work is probably the final part of my University carreer and my degree thesis, i
+%would like to spend a couple words and make some considerations. Delete
+%this section after reading or leave it here, if you'd like.
+
+%It has been a difficult, stressful and long path, wich took me 5 years to
+%complete. During my journey i've found interesting courses, others less enjoyable,
+%but all around everything was pretty difficult. I've always tought "I'm
+%not doing something easy so i shouldn't worry if I fail", but the sorrow
+%that comes when you cant overcome an obstacle or just the anxiety that this fear causes, remains.
+%Everyone always says that you should not give up, and i agree or i wouldnt be here writing this,
+%but it's easy to talk after you've finished as I'm now. When you're not it's complicated.
+%And this is something that almost every University student can share. Especially when your loved ones
+%are far away from you. I've also lost very important people during my journey,
+%metaphorically and, unfortunately, in a more literal way.
+%What saved me and made me succeed were the people that stayed with me
+%and the ones that I met. Gaming nights, pub nights and also just simple
+%chatting. I want to thank my family, for never letting me feel alone even when
+%they were the ones that missed me, and for never letting me in lack of
+%anything.
+%I want to thank my old friends for not leaving me despite the
+%distance.
+%I want to thank the friends that i made here, for being togheter
+%with me in this path.
+%I want to thank my girlfriend for her patience in
+%listening me repeat something that for her sounded like arabic nonsense
+%and for all the happy moments we had.
+%I want to thank Manuel that followed me during this whole project and for lending me a big hand.
+%Thank you everyone.
+
+%Follow your ambitions.

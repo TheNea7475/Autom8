@@ -3,36 +3,32 @@
 %#ok<*AGROW>    Autoincremento matrice
 %#ok<*VUNUS>    Variabile non usata
 
-function Report=GeometryExtractor_fast(stlPath,AirfDir,GraphDir,PADDir,GenerateGif,steps,d,Holdgraphs,DebugGraphNumbered,range_rpm,UnitFactor,Soundspeed,ni)
+function CompletePlotData=GeometryExtractor_fast(stlPath,AirfDir,PADDir,steps,d,range_rpm,UnitFactor,Soundspeed,ni,cutoff,TrailCutPerc)
     
     arguments
-    
     stlPath string
     AirfDir string
-    GraphDir string
     PADDir string
-    GenerateGif logical
     steps int32
     d double
-    Holdgraphs logical
-    DebugGraphNumbered logical
     range_rpm double
     UnitFactor double
     Soundspeed double
     ni double
+    cutoff double           %Perc of ctoff from min z (near root)
+    TrailCutPerc double     %Perc after the trail is cut. Additional behaviour in function
     
     end
     
-    plots=false;
-    %% Options
     
-    TrailCutPerc=99;                    %Perc after the trail is cut. Additional behaviour in function
-    cutoff=0.1;                         %Perc of ctoff from min z (near root)
-    gifFile = 'Sequence.gif';           %Name of the gif
+    
+    %% Options
+
+    SavePlotData=true;                      %Save all data about profiles and plotting into database                                      
     
     
     %% Pre run operations
-
+    PlotData=struct;
     Report=struct();
     intersections=[];
     
@@ -57,7 +53,7 @@ function Report=GeometryExtractor_fast(stlPath,AirfDir,GraphDir,PADDir,GenerateG
     zmax=0;
     halfz=zmax-zmin;
     
-    %% scanning trough z coords
+    %% scanning through z coords
 
     %zmin=tip, zmax = root
     zscan=linspace(zmin,(zmax-((zmax-zmin)*cutoff)),steps);
@@ -66,8 +62,12 @@ function Report=GeometryExtractor_fast(stlPath,AirfDir,GraphDir,PADDir,GenerateG
 
     
     parfor stepnum=1:length(zscan)
+
         z = zscan(stepnum);
-    intersections=[];
+        intersections=[];
+        RTSRD=[];
+        RTSGI=[];
+    
     
         if (z==zmin || z==zmax)                 %prevent use of delta at geometry borders
             d_used=0;
@@ -151,12 +151,10 @@ function Report=GeometryExtractor_fast(stlPath,AirfDir,GraphDir,PADDir,GenerateG
         %% data organization
     
         XXX;
-        %XXX_adim=XXX(:,1:2)/xmax;
         intersections;
     
     
         if intersections
-            %intersections_adim=intersections(:,1:2)/(max(intersections(:,1)));
     
             RTSGI_dict=ProfileRepositioning(intersections,TrailCutPerc);
     
@@ -165,158 +163,33 @@ function Report=GeometryExtractor_fast(stlPath,AirfDir,GraphDir,PADDir,GenerateG
             
             TargetProfile=RTSGI;
         else
+
         RTSRD_dict=ProfileRepositioning(XXX,TrailCutPerc);
-    
         RTSRD=RTSRD_dict{"matrix"};
         theta=RTSRD_dict{"theta"};
-            TargetProfile=RTSRD;        
+        TargetProfile=RTSRD;
+        
         end
         
-        TargetProfile;              %corrected profile
-        alpha=theta;                %angle of rotation
-        if isempty(intersections)                            % 
-        XY25=FindXY25(XXX);           %x and y of 25% chord, in base reference system
-        ChordLen=GetChordLen(XXX);  %get chord length
+        TargetProfile;                                           %corrected profile
+
+        InterpProfile=CustomInterp(TargetProfile);              %Profile with custom interpolation
+
+        alpha=theta;                                         %angle of rotation
+
+
+    %% Chord calculation
+        if isempty(intersections)                 
+        XY25=FindXY25(XXX);                                 %x and y of 25% chord, in base reference system
+        ChordLen=GetChordLen(XXX);                          %get chord length
         else
-        XY25=FindXY25(intersections);           %x and y of 25% chord, in base reference system
-        ChordLen=GetChordLen(intersections);  %get chord length
+        XY25=FindXY25(intersections);                       %x and y of 25% chord, in base reference system
+        ChordLen=GetChordLen(intersections);                    %get chord length
         end
-    
-        %% --- plot generator ---
-    if plots
-        f=figure('Name','Step '+string(stepnum)+' for z='+string(z),'NumberTitle','off');
-        f.Position(1:4) = [0 0 1024 1024];
-        tiledlayout(4,2)
-    
-        nexttile
-        hold on;
-        plot(XXX(:,1),XXX(:,2),".");
-        plot(XY25(1,1),XY25(1,2),".");
-        hold off;
-        axis equal;
-        title('Real measures')
-    
-    
-    
-        if intersections
-            nexttile
-            plot(intersections(:,1),intersections(:,2),'.');
-            axis equal;
-            title('Generated intersections (dim)')
-    
-        else
-            nexttile
-            title('Unable to generate intersections')
-        end
-    
-        nexttile
-        plot(RTSRD(:,1),RTSRD(:,2),'.');
-        xlim([-0.1 1.1])
-        ylim([-0.3 0.3])
-        axis equal;
-        title('Rotated translated scaled raw data (nondim)*')
-    
-        if intersections
-            nexttile
-            plot(RTSGI(:,1),RTSGI(:,2),'.');
-            xlim([-0.1 1.1])
-            ylim([-0.3 0.3])
-            axis equal;
-            title('Rotated translated scaled generated intersections (nodim)*')
-        else
-            nexttile
-            title('Unable to generate intersections')
-        end
-    
-    
-        nexttile
-        plot(TargetProfile(:,1),TargetProfile(:,2));
-        xlim([-0.1 1.1])
-        ylim([-0.3 0.3])
-        axis equal
-        title('Final result before polyroot','Profile n° ' + string(stepnum) + " alpha " + string(alpha)+"°");
-   
-
-        nexttile
 
 
-        %Reference graph, rotated for better visual
-        xx=XX(:,1);
-        yy=XX(:,2);
-        zz=XX(:,3);
-
-        plot3(zz,yy,-xx,'.')
-        xlabel("x")
-        ylabel("y")
-        zlabel("z")
-        title("3D reference visualization")
-        axis equal
-
-        hold on
-        %Plot cutting plane
-        xpmin=min(xx);
-        xpmax=max(xx);
-        ypmin=min(yy);
-        ypmax=max(yy);
-
-        [xp,yp] = meshgrid([xpmin xpmax],[ypmin ypmax]);
-        zp = 0.*xp + 0.*xp + z;
-        surf(zp,yp,-xp);
-        hold off
-
-        %Custom interpolation
-        nexttile
-        InterpProfile=CustomInterp(TargetProfile);  %This func produces a plot
-        title("Polyroot interpolation")
-
-        nexttile
-        plot(InterpProfile(:,1),InterpProfile(:,2))
-        title("Final result")
-        xlim([-0.1 1.1])
-        ylim([-0.3 0.3])
-        axis equal;
-
-        %% gif saver
-        
-        if GenerateGif
-            for c000=1:10
-                exportgraphics(gcf, gifFile, Append=true);
-            end
-        end
-    
-        %% img saver
-
-        saveas(gcf,GraphDir+'Profile'+string(stepnum)+'.png');
-    end
-    
-        %% debug graph with numbered points, not saved only shown if required
-    
-
-            if DebugGraphNumbered
-
-                %Chose wich matrix to debug
-                DebugProfile=TargetProfile;
-
-                figure('Name','Debug graph/step '+string(stepnum)+' for z='+string(z),'NumberTitle','off');
-                hold on
-                plot(DebugProfile(:,1),DebugProfile(:,2));
-                plot(DebugProfile(:,1),DebugProfile(:,2),'o');
-                title('Debug graph with numbered points, not saved')
-                hold off
-                grid on
-                axis equal
-            
-    
-                for i=1:size(DebugProfile)
-                    text(DebugProfile(i,1),DebugProfile(i,2),string(i),FontSize=6)
-                end
-            end
-    
-    
-        
-    
         %% --- Txt writer for xfoil ---
-    InterpProfile=CustomInterp(TargetProfile);
+
         fileID = fopen(AirfDir+'Profile'+string(stepnum)+'.txt','w');
         fprintf(fileID,'Profile'+string(stepnum)+'.txt\r\n');
         for i=1:size(InterpProfile)
@@ -325,13 +198,29 @@ function Report=GeometryExtractor_fast(stlPath,AirfDir,GraphDir,PADDir,GenerateG
         fclose(fileID);
     
     
-        %Reset intersections every z scan loop and close open graphs if needed
+
+    %% All data saving for app plot and info
+
+    if SavePlotData
+        PlotData(stepnum).z=z;
+        PlotData(stepnum).RealMeasures=XXX;
+        if intersections
+            PlotData(stepnum).Intersections=intersections;
+            PlotData(stepnum).rtsgi=RTSGI;
+        end
+        PlotData(stepnum).rtsrd=RTSRD;
+        PlotData(stepnum).target=TargetProfile;
+        PlotData(stepnum).polyroot=InterpProfile;
+        PlotData(stepnum).alpha=theta;
+        PlotData(stepnum).X25=XY25(1,1);
+        PlotData(stepnum).Y25=XY25(1,2);
+        PlotData(stepnum).ChordR=(ChordLen/halfz);
+        PlotData(stepnum).RadPos=(abs(z/halfz));
+    end
+
+        %Reset intersections every z scan loop
     
         intersections=[];     
-    
-        if not(Holdgraphs || DebugGraphNumbered)
-            close all;
-        end
     
     
         %% --- Profile aerodinamic data PAD info writing ---
@@ -349,30 +238,15 @@ function Report=GeometryExtractor_fast(stlPath,AirfDir,GraphDir,PADDir,GenerateG
         fprintf(fileID,"y25: "+num2str(Report{"y25"})+'\r\n');
         fprintf(fileID,"Chord/R: "+num2str(Report{"Chord/R"})+'\r\n');
         fclose(fileID);
-
-        else %new writer
-
-        %Variable top return with all profiles data. Not needed for now
-        Report(stepnum).ProfileProgress=num2str(stepnum)+"/"+num2str(steps);
-        Report(stepnum).RadPos=(1-z/halfz);
-        Report(stepnum).alpha=theta;
-        Report(stepnum).X25=XY25(1,1);
-        Report(stepnum).Y25=XY25(1,2);
-        Report(stepnum).ChordR=(ChordLen/halfz);
-
-
-    
-        %Console logging
-        fprintf("--Writing pad data for profile %s--\nRadial position: %.2f\nattack angle: %.0f\nx25: %0.2f\ny25: %0.2f\nChord/R: %0.4f\n\n",Report(stepnum).ProfileProgress,Report(stepnum).RadPos,Report(stepnum).alpha,Report(stepnum).X25,Report(stepnum).Y25,Report(stepnum).ChordR);
-
-        %New pad writer
-        fileID = fopen(PADDir+'Profile'+string(stepnum)+'.txt','w');
-        fprintf(fileID,"Radial position: %.2f\nattack angle: %.0f\nx25: %.2f\ny25: %.2f\nChord/R: %.4f\n",Report(stepnum).RadPos,Report(stepnum).alpha,Report(stepnum).X25,Report(stepnum).Y25,Report(stepnum).ChordR);
-        fclose(fileID);
         end
 
-    end
-        
+    end %End parfor
+       
+    %% Preparing plotdata with all information
+    
+    CompletePlotData=struct;
+    CompletePlotData.PlotData=PlotData;
+    CompletePlotData.TR=TR;
 
     %% Re, M, w and blade analysis, blade details file building
     
@@ -405,8 +279,8 @@ function Report=GeometryExtractor_fast(stlPath,AirfDir,GraphDir,PADDir,GenerateG
 
     end
     
+    %Calculating max re and mach
     MaxRe=(wMax*MaxRMt*MaxRMt*MaxChord)/ni;
-    
     MaxMach=(wMax*MaxRMt)/Soundspeed;
     
     %Writing rotor details on a txt, for database building
@@ -415,7 +289,6 @@ function Report=GeometryExtractor_fast(stlPath,AirfDir,GraphDir,PADDir,GenerateG
     fprintf(fileID,"Max Re: "+num2str(MaxRe)+'\r\n');
     fprintf(fileID,"Max Mach: "+num2str(MaxMach)+'\r\n');
     fclose(fileID);
-
 
     end
     
@@ -796,14 +669,14 @@ function Report=GeometryExtractor_fast(stlPath,AirfDir,GraphDir,PADDir,GenerateG
         %percentage of chord
         MaxToleratedDist=c*(base/100);
     
-        for i=1:size(Matrix)
+        for i=1:size(Matrix,1)
     
             x=Matrix(i,1);
             y=Matrix(i,2);
     
             found=false;
                       
-            for c=1:size(Umatrix)
+            for c=1:size(Umatrix,1)
 
                 xu=Umatrix(c,1);
                 yu=Umatrix(c,2);
@@ -856,22 +729,8 @@ function Report=GeometryExtractor_fast(stlPath,AirfDir,GraphDir,PADDir,GenerateG
 
         yintbot=polyrootval(pbot,xint,2);
 
-
-
-        plot(Matrix(:,1),Matrix(:,2),".")
-        
-        xlim([-0.1 1.1])
-        ylim([-0.3 0.3])
-        axis equal
-        hold on
-        
-        plot(xint,yinttop)
-        plot(xint,yintbot)
-
-        hold off
-
-
         NewTop=flip(horzcat(xint',yinttop'));
+
         NewBot=horzcat(xint',yintbot');
 
         NewBot(1,:)=[];

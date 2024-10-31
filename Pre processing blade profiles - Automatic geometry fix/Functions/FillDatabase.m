@@ -5,6 +5,9 @@ function FillDatabase(DatabasePath,RemovingTreshold,PercTreshold)
     %be set back on at the end of the script
     warning('off','MATLAB:interp1:NaNstrip')
 
+    %For logs
+    %#ok<*PRTCAL>
+
     load(DatabasePath,"Database");
 
     %Prevent code break when interpoalting on less than 2 values
@@ -186,12 +189,8 @@ function Value=FillAllDatabases(pi,ai,rei,machi,Database,interpdir)
             %Cicle trough all values of database except the grid
 
             %this should be a char list of the fields
-            Fields=fieldnames(Database);
 
-            %removing grid from list of databases to cycle trough
-            ii=strcmp(Fields,"grid");
-
-            Fields(ii)=[];
+            Fields={"CL" "CD"};
 
             for i=1:length(Fields)
 

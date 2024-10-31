@@ -1,7 +1,6 @@
-function suc=FolderManager(ProfilesNumber,ExtractProfiles,gifFile,GenerateXfoilDatabase,RunCTDist,RunInterpolationPolar,PolarsDir,AirfsDir,GraphsDir,ProfilesAerodinamicDataDir,xfoilDir,BenchmarkAeroacousticDir,FunctionsDir,STLPath,DatabasePath,aDensity,ReDensity,MachDensity,FolderWait)
+function suc=FolderManager(ProfilesNumber,ExtractProfiles,gifFile,GenerateXfoilDatabase,PolarsDir,AirfsDir,GraphsDir,ProfilesAerodinamicDataDir,xfoilDir,BenchmarkAeroacousticDir,FunctionsDir,STLPath,DatabasePath,aDensity,ReDensity,MachDensity,FolderWait)
 %% error structure for reporting to main run module
 
-suc.csv=true;
 suc.xfoil=true;
 suc.bladedet=true;
 suc.pad=true;
@@ -55,28 +54,6 @@ DirPaths=[PolarsDir,AirfsDir,GraphsDir,ProfilesAerodinamicDataDir,xfoilDir,Bench
     end
 
 
-    %Chord twist distribution
-    if RunCTDist
-
-        if not(exist(BenchmarkAeroacousticDir+"Chord.csv","file") && exist(BenchmarkAeroacousticDir+"Twist.csv","file"))
-            disp("Missing reference csv files")
-            suc.csv=false;
-        else
-            disp("Csv files found, proceeding..")
-        end
-        pause(FolderWait)
-
-        if not(exist(ProfilesAerodinamicDataDir+"Profile1.txt","file"))
-            disp("Missing profiles aerodinamic data files, run the profile extractor first!")
-            suc.pad=false;
-        else
-            disp("Profiles aerodinamic data found, proceeding..")
-        end
-        pause(FolderWait)
-
-    end
-
-
     % xfoil database
     if GenerateXfoilDatabase
         if not(exist(xfoilDir+"xfoil.exe","file"))
@@ -110,17 +87,6 @@ DirPaths=[PolarsDir,AirfsDir,GraphsDir,ProfilesAerodinamicDataDir,xfoilDir,Bench
         end
 
         pause(FolderWait)
-    end
-    
-
-    %Interpolation polar
-    if RunInterpolationPolar
-        if exist(DatabasePath,"file")
-            fprintf("Rotor database found..\n")
-        else
-            fprintf("Rotor database not found, run database generator first!\n")
-            suc.db=false;
-        end
     end
 
     %% Clearing folder and files for execution
