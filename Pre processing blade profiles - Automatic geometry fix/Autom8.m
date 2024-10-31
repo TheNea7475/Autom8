@@ -115,16 +115,16 @@ end
 
 %% Dev comments
 
-%Since this work is probably the final part of my University carreer and my degree thesis, i
+%Since this work is probably the final part of my university career and my degree thesis, I
 %would like to spend a couple words and make some considerations. Delete
-%this section after reading or leave it here, if you'd like.
+%this section. Or just leave it here.
 
-%It has been a difficult, stressful and long path, wich took me 5 years to
-%complete. During my journey i've found interesting courses, others less enjoyable,
-%but all around everything was pretty difficult. I've always tought "I'm
-%not doing something easy so i shouldn't worry if I fail", but the sorrow
-%that comes when you cant overcome an obstacle or just the anxiety that this fear causes, remains.
-%Everyone always says that you should not give up, and i agree or i wouldnt be here writing this,
+%It has been a difficult, stressful and long path, which took me 5 years to
+%complete. During my journey I’ve found interesting courses, others less enjoyable,
+%but all around everything was pretty difficult. I've always thought "I'm
+%not doing something easy so I shouldn't worry if I fail", but the sorrow
+%that comes when you can’t overcome an obstacle or just the anxiety that this fear causes, remains.
+%Everyone always says that you should not give up, and I agree, or I wouldn’t be here writing this,
 %but it's easy to talk after you've finished as I'm now. When you're not it's complicated.
 %And this is something that almost every University student can share. Especially when your loved ones
 %are far away from you. I've also lost very important people during my journey,
@@ -136,12 +136,12 @@ end
 %anything.
 %I want to thank my old friends for not leaving me despite the
 %distance.
-%I want to thank the friends that i made here, for being togheter
+%I want to thank the friends that I made here, for being together
 %with me in this path.
 %I want to thank my girlfriend for her patience in
-%listening me repeat something that for her sounded like arabic nonsense
+%listening me repeat something that for her sounded like Arabic nonsense
 %and for all the happy moments we had.
 %I want to thank Manuel that followed me during this whole project and for lending me a big hand.
 %Thank you everyone.
 
-%Follow your ambitions.
+%Pursue your ambitions.
