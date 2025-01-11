@@ -9,7 +9,12 @@ The code also builds an aerodynamic database to make a brief analysis of how the
 ***In order to run properly, the code requires a .exe of Xfoil***
 
 
+
+
 The following user manual is outdated, but the main concepts and functions that are explained are still valid.
+
+
+
 
 **Summary**
 
@@ -49,7 +54,7 @@ Rot8[2] is a code developed by Carreño Ruiz et al. [2] that predicts the perfor
 
 The pre-processing nature of STL Autom8 is to effectively and automatically extract geometric data about the profile, submitted in a compact and easy to read format, eliminating the repetitive CAD task of manually slicing and analyzing 3D files. The first module produces a table where this information is stored. This is the data required as input by the Rot8 module.
 
-![](Aspose.Words.2c59a413-7bad-401d-8b4c-e83125f8a89a.007.png)
+![Aspose Words 2c59a413-7bad-401d-8b4c-e83125f8a89a 007](https://github.com/user-attachments/assets/80f72893-6714-4fa0-93e8-dbff1eb64d2c)
 
 *An example of the data automatically collected by the geometry extractor module.*
 
@@ -107,6 +112,7 @@ In the Run.m routine are located the main parameters passed to every other modul
 
 **In the main options section (line 38)** there are the flags that trigger every module. They can be selected to choose which module will be run. Every flag needs the previous one to be true to generate a meaningful result as every module needs previous module data.
 
+![Aspose Words 2c59a413-7bad-401d-8b4c-e83125f8a89a 008](https://github.com/user-attachments/assets/002c245f-cbd2-4e46-847c-816315886579)
 *Figure 1. Constant prompt*
 
 At first a prompt will be opened for the user (Figure 1) to insert constant aerodynamic values such as cinematic viscosity, rotation speed and STL file unit measure, with the default ones inserted being standardly used.
@@ -115,6 +121,7 @@ The next prompt asks for the user to input the path for the STL geometry that wi
 
 If the **ExtractProfiles** flag is true, the user is asked if they want to edit the geometry before submitting. This will open a small editor for rotation and will also let the user save/load an edited 3D matrix in the TR/ directory.
 
+![Aspose Words 2c59a413-7bad-401d-8b4c-e83125f8a89a 009](https://github.com/user-attachments/assets/8f8aa1f7-b224-420e-87ec-c2e610caad0d)
 *Figure 2. Positioning example*
 
 Figure 2 is an example of how a geometry should be positioned in the axis to be properly processed. After finishing the rotation edits the user should simply close the geometry fix window and accept the result or save the TR for different elaborations.
@@ -130,21 +137,35 @@ After confirmation, the geometry will be processed by the GeometryExtractor.
 - DebugGraphNumbered will show additional information about the points that are passed to Xfoil for further analysis and how they are ordered.
 - HoldGraphs leaves all graphs open.
 
+![Aspose Words 2c59a413-7bad-401d-8b4c-e83125f8a89a 010](https://github.com/user-attachments/assets/3ba88c68-4b4f-4457-a122-a3f980496c25)
+
 *Figure 3. Slicing plane highlighted in yellow, attack border details with numbered points in debug graph*
+
+![Aspose Words 2c59a413-7bad-401d-8b4c-e83125f8a89a 011](https://github.com/user-attachments/assets/104ff833-7d06-46d9-8cd1-22ae064e3419)
 
 *Figure 3. Close view of a Leading Edge in debug graph*
 
 The following figures from 4 to 7 are the result of a 4-step analysis.
 
+![Aspose Words 2c59a413-7bad-401d-8b4c-e83125f8a89a 012](https://github.com/user-attachments/assets/faee8c5d-bfef-4563-8790-b3c07de16137)
+
 *Figure 4. Step 1/4*
+
+![Aspose Words 2c59a413-7bad-401d-8b4c-e83125f8a89a 013](https://github.com/user-attachments/assets/483f0161-1272-472d-b085-ff8fb1cfb038)
 
 *Figure 5. Step 2/4*
 
+![Aspose Words 2c59a413-7bad-401d-8b4c-e83125f8a89a 014](https://github.com/user-attachments/assets/ddf78077-b1a4-486a-9add-1886db6775a3)
+
 *Figure 6, Step 3/4*
+
+![Aspose Words 2c59a413-7bad-401d-8b4c-e83125f8a89a 015](https://github.com/user-attachments/assets/332bdfbb-9923-4cfa-ad46-97a62c40a664)
 
 *Figure 7. Step 4/4*
 
 Every image contains detailed information about data extracted.![img](Aspose.Words.2c59a413-7bad-401d-8b4c-e83125f8a89a.016.png)
+
+![Aspose Words 2c59a413-7bad-401d-8b4c-e83125f8a89a 016](https://github.com/user-attachments/assets/def8456e-486d-4ffe-8dd2-3f6c1e2fb860)
 
 *Figure 8. Zoom on step 2/4*
 
@@ -181,6 +202,8 @@ The following step is the database generation.
 
 After the database generation is done, the console will log statistics as shown in figure 9 about the completion rate and the accuracy of every profile.
 
+![Aspose Words 2c59a413-7bad-401d-8b4c-e83125f8a89a 017](https://github.com/user-attachments/assets/79ae00ee-1b8c-402a-92b4-b4ac35ca6c9d)
+
 *Figure 9. XFOIL success rate in creating database*
 
 **The next step is the Database filling. Filling parameters are on line 94.**
@@ -199,9 +222,7 @@ It is mostly automatized, so it does not require many parameters.
 
 **After the filling process the Database is ready to be used** for polar calculations and contains everything it is needed for a fast aerodynamic processing.
 
-![Immagine che contiene testo, schermata, Carattere, linea
-
-Descrizione generata automaticamente](Aspose.Words.2c59a413-7bad-401d-8b4c-e83125f8a89a.018.png)
+![Aspose Words 2c59a413-7bad-401d-8b4c-e83125f8a89a 018](https://github.com/user-attachments/assets/7c77adbd-4232-42c7-9271-5271a49e2de4)
 
 *Figure 10. Calculation menu*
 
@@ -210,7 +231,11 @@ In the figure 8 menu the user can choose if they need a single specific value or
 Single value output example that will be logged in console is this format:
 *CL = 1.078124e+00 for r=0.50 a=5.00 Re=200000.00 Mach=0.10*
 
+![Aspose Words 2c59a413-7bad-401d-8b4c-e83125f8a89a 019](https://github.com/user-attachments/assets/cf4ec398-9845-48b7-b9c3-aa6ccaf5aea4)
+
 *Figure 11. CL-Alpha curve with different parameters of T-motor geometry*
+
+![Aspose Words 2c59a413-7bad-401d-8b4c-e83125f8a89a 020](https://github.com/user-attachments/assets/26a409b4-cdb0-447f-ac0b-0f4ed9718fb4)
 
 *Figure 12. CD-Alpha curve with different parameters of T-motor geometry*
 
@@ -220,25 +245,30 @@ In this section a series of comparisons are made to ensure that the data automat
 
 All the comparisons in figures 13-18 are realized between Autom8 software extraction and the values reported on the T-motor 15x5 CF geometry, shown as “Reference”.
 
-![](Aspose.Words.2c59a413-7bad-401d-8b4c-e83125f8a89a.021.png)
+![Aspose Words 2c59a413-7bad-401d-8b4c-e83125f8a89a 021](https://github.com/user-attachments/assets/709e23c3-c5b9-493c-8248-2e310f2b988e)
 
 *Figure 13. Chord distribution comparison*
 
+![Aspose Words 2c59a413-7bad-401d-8b4c-e83125f8a89a 022](https://github.com/user-attachments/assets/c3079d0a-7b47-4909-a233-be8649111981)
+
 *Figure 14. Twist distribution comparison.*
 
-![](Aspose.Words.2c59a413-7bad-401d-8b4c-e83125f8a89a.023.png)
+![Aspose Words 2c59a413-7bad-401d-8b4c-e83125f8a89a 023](https://github.com/user-attachments/assets/2cb6ddfb-6745-4313-b5e1-b189680e2961)
 
 *Figure 15. y25 distribution*
 
-![](Aspose.Words.2c59a413-7bad-401d-8b4c-e83125f8a89a.024.png)
+![Aspose Words 2c59a413-7bad-401d-8b4c-e83125f8a89a 024](https://github.com/user-attachments/assets/f9c0a56b-e7e1-4e83-9296-0dbc152496d3)
 
 *Figure 16. x25 Distribution*
 
 As it can be noticed **the distribution of x25 and y25 is different from the reference one by a constant value**. This is due to the rigid translation of the geometry before the Geometry Extractor analysation. By defining the origin point coords in the STL matrix and standardizing input position of STL file this error can be removed, as shown in figure 17.
 
+![Aspose Words 2c59a413-7bad-401d-8b4c-e83125f8a89a 025](https://github.com/user-attachments/assets/551da7e4-e9fb-49f2-b2f9-c4971e53a916)
+
 *Figure 17. Comparison between x25 distributions when considering the translation parameter.*
 
-![](Aspose.Words.2c59a413-7bad-401d-8b4c-e83125f8a89a.026.png)
+![Aspose Words 2c59a413-7bad-401d-8b4c-e83125f8a89a 026](https://github.com/user-attachments/assets/10d2e2b5-db53-436d-920a-64c34e592e1e)
+
 
 *Figure 18. Comparison between the T-motor 15X5 CF profile and the extracted profile for a r/R of approximately 0.5
 ‘ \* ’ is reference, red line is calculated by Autom8*
