@@ -163,7 +163,7 @@ The following figures from 4 to 7 are the result of a 4-step analysis.
 
 *Figure 7. Step 4/4*
 
-Every image contains detailed information about data extracted.![img](Aspose.Words.2c59a413-7bad-401d-8b4c-e83125f8a89a.016.png)
+Every image contains detailed information about data extracted.
 
 ![Aspose Words 2c59a413-7bad-401d-8b4c-e83125f8a89a 016](https://github.com/user-attachments/assets/def8456e-486d-4ffe-8dd2-3f6c1e2fb860)
 
