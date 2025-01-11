@@ -10,7 +10,6 @@ The code also builds an aerodynamic database to make a brief analysis of how the
 
 
 
-
 The following user manual is outdated, but the main concepts and functions that are explained are still valid.
 
 
@@ -41,6 +40,9 @@ The following user manual is outdated, but the main concepts and functions that 
 **5. Conclusion**
 
 **6. References**
+
+
+
 
 **1. Introduction**
 
