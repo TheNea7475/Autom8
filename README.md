@@ -1,6 +1,10 @@
 # STL Autom8
 
 ## Objective
+
+- This is my first GitHub project so a lot of things may be incorrect, misplaced, redundant or missing.
+- I'm non-native en so I apologize for every misspell or grammar errors.
+
 The Autom8 project is meant to optimize and automate 2D geometries extraction from .STL files that contain geometric data about propellers and rotors.
 The code also builds an aerodynamic database to make a brief analysis of how the geometry will perform.
 
@@ -45,9 +49,9 @@ The code also builds an aerodynamic database to make a brief analysis of how the
 ## Manual Content
 **1. Introduction**
 
-The STL Autom8 is designed to completely automate the task of extracting two-dimensional geometries from an STL file and analyzing them with external software, specifically Xfoil [1]. The main purpose of the code is to provide a fast and fairly accurate preview of how a geometry could perform, before committing to a long and heavy computational process. This saves valuable time by identifying errors and correcting defects early on or by giving a rough idea of how the geometry will behave.
+The STL Autom8 is designed to completely automate the task of extracting two-dimensional geometries from an STL file and analysing them with external software, specifically Xfoil [1]. The main purpose of the code is to provide a fast and fairly accurate preview of how a geometry could perform, before committing to a long and heavy computational process. This saves valuable time by identifying errors and correcting defects early on or by giving a rough idea of how the geometry will behave.
 
-The ultimate result of the preprocessing is an aerodynamic database of CL and CD coefficients, generated for the 3D geometry, which can be accessed almost instantly. This allows the user to retrieve specific data about a section of the geometry under certain conditions. Each value results from calculations done on a unique combination of variables commonly used in aerodynamics that determine lift and drag properties. In this case, Alpha, Reynolds number (Re), Mach number and profile shape are the variables considered when generating the database.
+The ultimate result of the pre-processing is an aerodynamic database of CL and CD coefficients, generated for the 3D geometry, which can be accessed almost instantly. This allows the user to retrieve specific data about a section of the geometry under certain conditions. Each value results from calculations done on a unique combination of variables commonly used in aerodynamics that determine lift and drag properties. In this case, Alpha, Reynolds number (Re), Mach number and profile shape are the variables considered when generating the database.
 
 **1.1 Pre-processing and Rot8 code**
 
@@ -341,5 +345,3 @@ In conclusion, the STL Autom8 software provides a comprehensive and automated so
 %Thank you everyone.
 
 %Pursue your ambitions.
-
-18
