@@ -1,16 +1,10 @@
-# STL Autom8
-
-## Objective
-
-- This is my first GitHub project so a lot of things may be incorrect, misplaced, redundant or missing.
-- I'm non-native en so I apologize for every misspell or grammar errors.
-
-The Autom8 project is meant to optimize and automate 2D geometries extraction from .STL files that contain geometric data about propellers and rotors.
-The code also builds an aerodynamic database to make a brief analysis of how the geometry will perform.
-
 ## Requirements
+
 ***In order to run properly, the code requires a .exe of Xfoil***
 
+***Info about the used version for this build:***
+XFOIL Version 6.99
+Copyright (C) 2000   Mark Drela, Harold Youngren
 
 ## Disclaimer
 - The following user manual is meant to explain base concepts and functions objectives, tough some modifications may vary the code structure and lines position.
