@@ -40,7 +40,7 @@ Copyright (C) 2000   Mark Drela, Harold Youngren
 
 
 
-## Manual Content
+## Content
 **1. Introduction**
 
 The STL Autom8 is designed to completely automate the task of extracting two-dimensional geometries from an STL file and analysing them with external software, specifically Xfoil [1]. The main purpose of the code is to provide a fast and fairly accurate preview of how a geometry could perform, before committing to a long and heavy computational process. This saves valuable time by identifying errors and correcting defects early on or by giving a rough idea of how the geometry will behave.
