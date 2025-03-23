@@ -1,6 +1,7 @@
 ## Requirements
 
 ***In order to run properly, the code requires a .exe of Xfoil***
+
 It must be placed in the xfoil directory and the path to the file should be like this:
 
 Your Directory\Autom8\Pre processing blade profiles - Automatic geometry fix\xfoil\xfoil.exe
