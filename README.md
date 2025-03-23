@@ -1,8 +1,5 @@
 # STL Autom8
 
-- This is my first GitHub project so a lot of things may be incorrect, misplaced, redundant or missing.
-- I'm non-native en so I apologize for every mispell or grammar errors.
-
 ## Objective
 The Autom8 project is meant to optimize and automate 2D geometries extraction from .STL files that contain geometric data about propellers and rotors.
 The code also builds an aerodynamic database to make a brief analysis of how the geometry will perform.
@@ -12,8 +9,9 @@ The code also builds an aerodynamic database to make a brief analysis of how the
 
 
 ## Disclaimer
-The following user manual is meant to explain base concepts and functions objectives, tough some modifications may vary the code structure and lines position.
-
+- The following user manual is meant to explain base concepts and functions objectives, tough some modifications may vary the code structure and lines position.
+- This is my first GitHub project so a lot of things may be incorrect, misplaced, redundant or missing.
+- I'm non-native en so I apologize for every mispell or grammar errors.
 
 
  ## **Summary**
