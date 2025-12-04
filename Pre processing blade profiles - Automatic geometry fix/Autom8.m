@@ -13,14 +13,14 @@ fclose all;
 
 %% Adding Functions folder to path
 
-FunctionsDir="Functions/";
-addpath(FunctionsDir)
+addpath(genpath(pwd));
 
-%% All parameters tuning and explanation
+%% All parameters tuning, retrieved from app and path strings
 
 %save locations and folder names
 Filename=Parameters.FileName;
 DatabasePath=strcat(Filename,".mat");
+FunctionsDir="Functions/";
 PolarsDir="Polars\\";
 AirfsDir="Profiles/";
 GraphsDir="Graphs/";

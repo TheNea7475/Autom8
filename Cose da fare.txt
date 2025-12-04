@@ -1,0 +1,73 @@
+DONE La funzione di etrazione del profilo, quando si parla di ventre con inarcamento potrebbe fare cose strane --> riscrittura quasi completa :(
+
+DONE Trail della coda dei profili --> fare un'interpolazione altrimenti taglio via troppa roba
+
+DONE Finire la funzione per riempire i buchi
+
+DONE (Verificare ch succede se viene tolto il primo profilo) Finire la funzione che estrae una polare, --> scegliere il profilo più vicino al raggio scelto dall'utente
+
+DONE, OVERSHOOT Range delle griglie per la generazione del database --> basato sul range di rpm scelto inizialmente dall'utente e sul raggio massimo.
+
+DONE Rimuovere i punti troppo vicini altrimenti danno problemi quando taglio vicino ai vertici dei triangoli. Vedere la funzione "remove duplicates"
+
+DONE Finire la funzione move, abbandonare cut e sostituirlo con mirror!
+
+DONE Sistemare points ordering per la nova geometria
+
+DONE Funzione che ruota a zero, con aggiunta di una funzione che forza il LE in 0,0
+
+DONE Controllare il calcolo del reynolds, manca qualcosa
+
+FIXED Check FillUpdate and its working logic. may be broken
+
+DONE Mettere i dati PAD nel database, altrimenti vengono misinterpretati quando faccio girare la polare non trova la posizione radiale del profilo
+
+DONE Uniformare la vista dei grafici 3D e il posizionamento della geometria
+
+DONE BUT BUGGED hold off su distributions
+
+DONE referenziare x25 y25 rispetto all'origine del rotore, 0 0 0 è l'asse di rotazione nella geometria di input
+
+DONE needs testing, Caricare subito le pad dentro al database nel modulo geometrico geometry extractor, deve essere indipendente
+
+DONE axis, per i profili normalizzati fissare gli assi da -0.1 a 1.1, da -0.3 a 0.3, impostare aspect ratio 1:2
+
+DONE Finestra con tutti i Subplot per ogni slice. Da fare salvando le informazioni direttamente nel database e vedere se funziona la geoemtry extractor FAST
+
+DONE Inserire i dati salvati nella generazione della geometria tramite il parfor (fast geoemtry extracvtor) dentro il database.
+
+DONE Finestra con valori di output
+
+DONE Finestra con il calcolo della polare solo su database già esistenti.
+
+
+TO DO
+
+	Riconoscimento geometria tripala e bipala (anche come input)
+
+	File di settings per leggere e scrivere le impostazioni predefinite
+
+	Interpolazione non uniforme, verificare interp3 se funziona con dbdens diverse per ogni riga.
+	SEEE funziona, possibilità di inserire il range di alpha. Separare le densità di ogni variabile.
+
+	Possibilità di scegliere i boundaries del database anziché ottenerli manualmente, flashando i boundaries calcolati in automatico.
+
+	Per il mach un flag per lasciare in incomprimibile. (tutti 0). Altrimenti di default un range di 0-0.3 con 3 valori, perché non c'è molta 	differenza tra valori con mach diversi.
+
+	Vedere se è possibile fare l'aseq. Modificare il file di input e il reading. Sarà doloroso.
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
